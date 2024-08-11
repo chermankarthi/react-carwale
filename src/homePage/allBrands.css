@@ -1,0 +1,14 @@
+.isExpand {
+  display: "block";
+  transition: 10s;
+  transition-timing-function: linear;
+}
+.isNotExpand {
+  overflow: hidden;
+  @media (max-width: 1200px) {
+    max-height: 300px;
+  }
+  @media (min-width: 1200px) {
+    max-height: 200px;
+  }
+}

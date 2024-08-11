@@ -1,0 +1,32 @@
+{
+  "tableData": [
+    {
+      "Maruti Fronx": [
+        {
+          "power": "Petrol-Manual(1197cc)",
+          "mileageARAI": "21.79 kmpl",
+          "userReportedMileage": "19.74.38"
+        },
+        {
+          "power": "CNG-Manual(1197cc)",
+          "mileageARAI": "28.51 km/kg",
+          "userReportedMileage": "22.38 km/kg"
+        }
+      ]
+    },
+    {
+      "Maruti Ertiga": [
+        {
+          "power": "Petrol-Manual(1197cc)",
+          "mileageARAI": "21.79 kmpl",
+          "userReportedMileage": "19.74.38"
+        },
+        {
+          "power": "CNG-Manual(1197cc)",
+          "mileageARAI": "28.51 km/kg",
+          "userReportedMileage": "22.38 km/kg"
+        }
+      ]
+    }
+  ]
+}

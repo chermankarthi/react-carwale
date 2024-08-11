@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "brandName": "Maruti Suzuki",
+    "model": "Maruti Fronx",
+    "modelShortName": "Fronx",
+    "carImage": "/maruti_suzuki/maruti_fronx.webp",
+    "version": "Sigma 1.2L MT",
+    "featuredCar": true,
+    "priceStart": 7.47,
+    "priceEnd": 13.14,
+    "mileage": "20.01 to 28.51 kmpl",
+    "engine": "998 to 1197 cc",
+    "fuelType": "Petrol",
+    "transmission": "Manual, Auto",
+    "seatingCapacity": "5 Seater",
+    "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
+    "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
+    "variants": "14",
+    "engineDetails": "1197 cc, 4 Cylinders Inline, 4 Valves/Cylinder, DOHC",
+    "engineType": "1.2L Dual Jet, Dual VVT",
+    "maxPower": "89 bhp @ 6000 rpm",
+    "maxTorque": "113 Nm @ 4400 rpm",
+    "mileageDetails": 21.79,
+    "drivingRange": 806,
+    "driveTrain": "FWD",
+    "transmissionDetails": "Manual - 5 Gears",
+    "emissionStandard": "BS6 Phase 2",
+    "charger": "X",
+    "electricMotor": "-",
+    "others": "idleStart/Stop",
+    "carouselImages": [
+      {
+        "carouselImage": "/maruti_suzuki/maruti_fronx.webp"
+      },
+      {
+        "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-front-view-2.webp"
+      },
+      {
+        "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-left-rear-three-quarter-2.webp"
+      },
+      {
+        "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-rear-view-2.webp"
+      },
+      {
+        "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-right-front-three-quarter-108.webp"
+      },
+      {
+        "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/youtube-link.jpg"
+      }
+    ],
+    "carVarientTypes":[
+      {"type":"petrol"},
+      {"type":"diesel"},
+      {"type":"manual"},
+      {"type":"automatic"}
+    ]
+  },
+
+  {
+    "id": 2,
+    "brandName": "Tata",
+    "model": "Tata Nexon",
+    "modelShortName": "Nexon",
+    "carImage": "/tata/tata_nexon.webp",
+    "featuredCar": true,
+    "priceStart": 8.1,
+    "engine": "998 to 1197 cc",
+    "engineDetails": "1197 cc, 4 Cylinders Inline, 4 Valves/Cylinder, DOHC",
+    "engineType": "1.2L Turbocharged Revotron Engine",
+    "fuelType": "Petrol",
+    "maxPower": "118 bhp @ 5500 rpm",
+    "maxTorque": "170 Nm @ 1750-4000 rpm",
+    "mileageDetails": 17.44,
+    "drivingRange": 767,
+    "driveTrain": "FWD",
+    "transmissionDetails": "Manual - 5 Gears, Sport Mode",
+    "emissionStandard": "BS6 Phase 2",
+    "charger": "Turbo Charged",
+    "electricMotor": "X",
+    "others": "idleStart/Stop",
+    "carouselImages": [
+      {
+        "carouselImage": "/maruti_suzuki/maruti_fronx.webp"
+      },
+      {
+        "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-front-view-2.webp"
+      },
+      {
+        "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-left-rear-three-quarter-2.webp"
+      },
+      {
+        "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-rear-view-2.webp"
+      },
+      {
+        "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-right-front-three-quarter-108.webp"
+      },
+      {
+        "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/youtube-link.jpg"
+      }
+    ],
+    "carVarientTypes":[
+      {"type":"petrol"},
+      {"type":"diesel"},
+      {"type":"manual"},
+      {"type":"automatic"}
+    ]
+  },
+
+  {
+    "id": 3,
+    "brandName": "Hyundai",
+    "model": "Hyundai Exter",
+    "modelShortName": "Exter",
+    "carImage": "/hyundai/hyundai_exter.webp",
+    "featuredCar": true,
+    "priceStart": 6
+  },
+  {
+    "id": 4,
+    "brandName": "Toyota",
+    "model": "Toyota Rumion",
+    "modelShortName": "Rumion",
+    "carImage": "/toyota/toyota_rumion.webp",
+    "featuredCar": true,
+    "priceStart": 10.29
+  },
+  {
+    "id": 5,
+    "brandName": "Mahindra",
+    "model": "Mahindra Thar",
+    "modelShortName": "Thar",
+    "carImage": "/mahindra/mahindra_thar.webp",
+    "featuredCar": true,
+    "priceStart": 10.98
+  },
+  {
+    "id": 6,
+    "brandName": "BMW",
+    "model": "BMW X1",
+    "modelShortName": "X1",
+    "carImage": "/bmw/bmw_x1.webp",
+    "featuredCar": true,
+    "priceStart": 45.9
+  }
+]

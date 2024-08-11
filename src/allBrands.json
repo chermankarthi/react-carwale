@@ -1,0 +1,83 @@
+[
+  {
+    "id": "1",
+    "brandName": "Maruti Suzuki",
+    "imageName": "/maruti_suzuki/maruti_suzuki.jpg",
+    "similarBrand": true,
+    "models": [
+      {
+        "id": "11",
+        "model": "Maruti Fronx"
+      },
+      {
+        "id": "12",
+        "model": "Maruti Ertiga"
+      }
+    ]
+  },
+  {
+    "brandName": "Tata",
+    "imageName": "/tata/tata.jpg",
+    "similarBrand": true,
+    "models": [
+      {
+        "model": "Tata "
+      },
+      {
+        "model": "Tata "
+      }
+    ]
+  },
+  {
+    "brandName": "Hyundai",
+    "imageName": "/hyundai/hyundai.jpg",
+    "similarBrand": true,
+    "models": [
+      {
+        "model": "Hyundai "
+      },
+      {
+        "model": "Hyundai"
+      }
+    ]
+  },
+  {
+    "brandName": "Toyota",
+    "imageName": "/toyota/toyota.jpg",
+    "similarBrand": true,
+    "models": [
+      {
+        "model": "Toyota"
+      },
+      {
+        "model": "Toyota "
+      }
+    ]
+  },
+  {
+    "brandName": "Mahindra",
+    "imageName": "/mahindra/mahindra.jpg",
+    "similarBrand": true,
+    "models": [
+      {
+        "model": "Mahindra"
+      },
+      {
+        "model": "Mahindra"
+      }
+    ]
+  },
+  {
+    "brandName": "BMW",
+    "imageName": "/bmw/bmw.jpg",
+    "popularBrand": true,
+    "models": [
+      {
+        "model": "BMW"
+      },
+      {
+        "model": "BMW "
+      }
+    ]
+  }
+]

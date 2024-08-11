@@ -1,0 +1,50 @@
+[
+  {
+    "carBrand": "Mercedes-Benz",
+    "carBrandImage": "/mercedes_benz/benz.jpg"
+  },
+  {
+    "carBrand": "Kia",
+    "carBrandImage": "/kia/kia.jpg"
+  },
+  {
+    "carBrand": "Audi",
+    "carBrandImage": "/audi/audi.jpg"
+  },
+  {
+    "carBrand": "Land Rover",
+    "carBrandImage": "/land_rover/land_rover.jpg"
+  },
+  {
+    "carBrand": "Skoda",
+    "carBrandImage": "/skoda/skoda.jpg"
+  },
+  {
+    "carBrand": "MG",
+    "carBrandImage": "/mg/mg.jpg"
+  },
+  {
+    "carBrand": "Porsche",
+    "carBrandImage": "/porsche/porsche.jpg"
+  },
+  {
+    "carBrand": "Volvo",
+    "carBrandImage": "/volvo/volvo.jpg"
+  },
+  {
+    "carBrand": "Lamborghini",
+    "carBrandImage": "/lamborghini/lamborghini.jpg"
+  },
+  {
+    "carBrand": "Citroen",
+    "carBrandImage": "/citroen/citroen.jpg"
+  },
+  {
+    "carBrand": "Volkswagen",
+    "carBrandImage": "/volkswagen/volkswagen.jpg"
+  },
+  {
+    "carBrand": "honda",
+    "carBrandImage": "/honda/honda.jpg"
+  }
+]

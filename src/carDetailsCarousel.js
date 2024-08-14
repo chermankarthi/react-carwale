@@ -7,9 +7,8 @@ import "slick-carousel/slick/slick-theme.css";
 import { Grid, Container, Typography } from "@mui/material";
 import { useSelector } from "react-redux";
 
-const CarDetailsCarousel = ({ params }) => {
-  const { carData } = useSelector((store) => store.car);
-
+const CarDetailsCarousel = ({ params, car }) => {
+  console.log(car, "car");
   var settings = {
     infinite: false,
     speed: 500,
@@ -70,27 +69,25 @@ const CarDetailsCarousel = ({ params }) => {
   return (
     <>
       <Container maxWidth="lg">
-        {carData.map((car) => (
-          <>
-            {params.model === car.model && (
-              <>
-                <Slider {...settings}>
-                  {car.carouselImages.map((carousel) => (
-                    <>
-                      <Grid item xs={12}>
-                        <Typography
-                          component={"img"}
-                          src={carousel.carouselImage}
-                          width="100%"
-                        ></Typography>
-                      </Grid>
-                    </>
-                  ))}
-                </Slider>
-              </>
-            )}
-          </>
-        ))}
+        <>
+          {params.model === car.model && (
+            <>
+              <Slider {...settings}>
+                {car.carouselImages.map((carousel) => (
+                  <>
+                    <Grid item xs={12}>
+                      <Typography
+                        component={"img"}
+                        src={carousel.carouselImage}
+                        width="100%"
+                      ></Typography>
+                    </Grid>
+                  </>
+                ))}
+              </Slider>
+            </>
+          )}
+        </>
       </Container>
     </>
   );

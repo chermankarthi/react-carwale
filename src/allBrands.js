@@ -6,7 +6,7 @@ import { useSelector } from "react-redux";
 const AllBrands = () => {
   const navigate = useNavigate();
 
-  const { allBrands, mainArray } = useSelector((store) => store.car);
+  const { mainArray } = useSelector((store) => store.car);
   const [expand, setExpand] = useState(false);
   const handleExpand = () => {
     setExpand(!expand);
@@ -54,12 +54,12 @@ const AllBrands = () => {
                   <Grid item>
                     <Typography
                       component={"img"}
-                      src={brand.carBrandImage}
+                      src={brand?.carBrandImage}
                       width="50%"
                     ></Typography>
                   </Grid>
                   <Grid item>
-                    <Typography component={"p"}>{brand.carBrand}</Typography>
+                    <Typography component={"p"}>{brand?.carBrand}</Typography>
                   </Grid>
                 </Grid>
               ))}
@@ -73,7 +73,6 @@ const AllBrands = () => {
               borderCollapse: "collapse",
               border: "1px solid #e1e1e1",
               textAlign: "center",
-
               cursor: "pointer",
               display: "flex",
               justifyContent: "center",

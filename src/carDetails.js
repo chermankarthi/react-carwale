@@ -29,10 +29,13 @@ import Paper from "@mui/material/Paper";
 
 const CarDetails = () => {
   const params = useParams();
+  console.log(params, "params");
+  console.log(params.model, "paramsModel");
   const navigate = useNavigate();
   const { mainArray } = useSelector((store) => store.car);
   const [pageData, setPagedata] = useState([]);
   const [currentCarArray, setcurrentCarArray] = useState([]);
+  const [currentCarFilterArray, setcurrentCarFilterArray] = useState([]);
   const [pageLoadedArray, setPageLoadedArray] = useState([]);
   const [powerTrain, setPowerTrain] = useState([]);
   const [cityPrices, setCityPrices] = useState([]);
@@ -43,7 +46,7 @@ const CarDetails = () => {
       return v.carArray.map((value, index) => {
         if (Object.keys(value)[0] === params.model) {
           setPagedata([Object.values(value)[0][0]]);
-          setcurrentCarArray(Object.values(value)[0]);
+          // setcurrentCarArray(Object.values(value)[0]);
           setPageLoadedArray(Object.values(value)[0]);
           setPowerTrain(Object.values(value)[0][0].powerTrain);
           setCityPrices(Object.values(value)[0][0].cityPrices);
@@ -53,8 +56,16 @@ const CarDetails = () => {
     });
   }, []);
 
-  const changeCarData = (getChangeCar) => {
+  useEffect(() => {
     var filterItem = pageLoadedArray.filter((v, i) => {
+      return i > 0;
+    });
+    setcurrentCarArray(filterItem);
+    setcurrentCarFilterArray(filterItem);
+  }, [pageLoadedArray]);
+
+  const changeCarData = (getChangeCar) => {
+    var filterItem = currentCarFilterArray.filter((v, i) => {
       return v.carVarientTypes !== getChangeCar.carVarientTypes;
     });
     setPagedata([getChangeCar]);
@@ -71,7 +82,7 @@ const CarDetails = () => {
             <Grid container item>
               <Grid item xs={12}>
                 <Typography variant="h6" component={"h6"}>
-                  {car.carVarientTypes}
+                  {car?.carDetailsHeading}
                 </Typography>
               </Grid>
 
@@ -87,7 +98,7 @@ const CarDetails = () => {
                   border: "1px solid #e1e1e1",
                 }}
               >
-                <CarDetailsCarousel params={params} />
+                <CarDetailsCarousel params={params} car={car} />
               </Grid>
               <Grid item xs={12} md={6} sx={{ border: "1px solid #e1e1e1" }}>
                 <Grid item container>
@@ -618,7 +629,7 @@ const CarDetails = () => {
                         >
                           <Grid item xs={12}>
                             <Typography component={"p"} variant="p">
-                              {car.carBrand}
+                              {car.brandName}
                             </Typography>
                           </Grid>
                           <Grid item xs={12}>
@@ -852,7 +863,7 @@ const CarDetails = () => {
               <Typography
                 component={"p"}
                 variant="p"
-                onClick={() => navigate(`/home`)}
+                onClick={() => navigate(`/`)}
                 sx={{ cursor: "pointer" }}
               >
                 Home
@@ -865,7 +876,7 @@ const CarDetails = () => {
               <Typography
                 component={"p"}
                 variant="p"
-                onClick={() => navigate(`/cars/${car.carBrand}`)}
+                onClick={() => navigate(`/cars/${car.brandName}`)}
                 sx={{ cursor: "pointer" }}
               >
                 {car.car}

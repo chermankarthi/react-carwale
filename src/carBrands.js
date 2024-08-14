@@ -6,7 +6,7 @@ import { useSelector } from "react-redux";
 
 const CarBrands = () => {
   const navigate = useNavigate();
-  const { carData, allBrands, mainArray } = useSelector((store) => store.car);
+  const { mainArray } = useSelector((store) => store.car);
 
   const params = useParams();
 
@@ -14,10 +14,10 @@ const CarBrands = () => {
   const [popularBrand, setPopularBrand] = useState([]);
   const [pageArray, setPageArray] = useState([]);
 
-  console.log(params.carBrand, "params");
-  console.log(similarBrand, "similar");
-  console.log(popularBrand, "popular");
-  console.log(pageArray, "paageArray");
+  // console.log(params.carBrand, "params");
+  // console.log(similarBrand, "similar");
+  // console.log(popularBrand, "popular");
+  // console.log(pageArray, "paageArray");
 
   // useEffect(() => {
   //   let similar = mainArray.filter(
@@ -50,8 +50,8 @@ const CarBrands = () => {
         });
       }
     });
-    console.log(a, "a");
-    console.log(similar, "similar");
+    // console.log(a, "a");
+    // console.log(similar, "similar");
     setPageArray(a);
     setSimilarBrand(similar);
     setPopularBrand(popular);
@@ -102,7 +102,7 @@ const CarBrands = () => {
                     >
                       <Typography
                         component={"img"}
-                        src={car.carImage}
+                        src={car?.carImage}
                         width="100%"
                       ></Typography>
                     </Grid>
@@ -122,12 +122,12 @@ const CarBrands = () => {
                           varient="p"
                           sx={{ fontWeight: "600" }}
                         >
-                          {car.model}
+                          {car?.model}
                         </Typography>
                       </Grid>
                       <Grid item xs={12}>
                         <Typography component={"p"} varient="p">
-                          {car.mileage}
+                          {car?.mileage}
                         </Typography>
                       </Grid>
                       <Grid item xs={12}>
@@ -136,7 +136,7 @@ const CarBrands = () => {
                           varient="p"
                           sx={{ fontWeight: "900" }}
                         >
-                          RS. {car.priceStart} lakh onwards
+                          RS. {car?.priceStart} lakh onwards
                         </Typography>
                       </Grid>
                       <Grid item xs={12}>
@@ -176,7 +176,7 @@ const CarBrands = () => {
                       {similarBrand.map((brand) => (
                         <Grid
                           item
-                          xs
+                          // xs
                           xs={6}
                           sm={4}
                           md={3}
@@ -201,13 +201,13 @@ const CarBrands = () => {
                           <Grid item>
                             <Typography
                               component={"img"}
-                              src={brand.carBrandImage}
+                              src={brand?.carBrandImage}
                               width="50%"
                             ></Typography>
                           </Grid>
                           <Grid item>
                             <Typography component={"p"}>
-                              {brand.carBrand}
+                              {brand?.carBrand}
                             </Typography>
                           </Grid>
                         </Grid>
@@ -278,13 +278,13 @@ const CarBrands = () => {
                           <Grid item>
                             <Typography
                               component={"img"}
-                              src={brand.carBrandImage}
+                              src={brand?.carBrandImage}
                               width="50%"
                             ></Typography>
                           </Grid>
                           <Grid item>
                             <Typography component={"p"}>
-                              {brand.carBrand}
+                              {brand?.carBrand}
                             </Typography>
                           </Grid>
                         </Grid>
@@ -321,99 +321,3 @@ const CarBrands = () => {
 };
 
 export default CarBrands;
-
-{
-  /* <Grid item xs={12} md={5}>
-              <Grid container spacing={2}>
-                <Grid item xs={12}>
-                  <Grid item xs={12}>
-                    <Typography variant="h6" component={"h6"}>
-                      Similar Brands
-                    </Typography>
-                  </Grid>
-                  <Grid container>
-                    {similarBrand.map((brand) => (
-                      <Grid
-                        item
-                        xs={4}
-                        maxheight="100px"
-                        sx={{
-                          borderCollapse: "collapse",
-                          border: "1px solid #e1e1e1",
-                          textAlign: "center",
-                          padding: "20px 0px ",
-                          cursor: "pointer",
-                          display: "flex",
-                          justifyContent: "center",
-                          alignItems: "center",
-                          flexDirection: "column",
-                        }}
-                        onClick={() => navigate(`/cars/${brand.carBrand}`)}
-                      >
-                        <>
-                          <Grid item>
-                            <Typography
-                              component={"img"}
-                              src={brand.carBrandImage}
-                              width="50%"
-                            ></Typography>
-                          </Grid>
-                          <Grid item>
-                            <Typography component={"p"}>
-                              {brand.carBrand}
-                            </Typography>
-                          </Grid>
-                        </>
-                      </Grid>
-                    ))}
-                  </Grid>
-                </Grid>
-
-                <Grid item xs={12}>
-                  <Grid item xs={12}>
-                    <Typography variant="h6" component={"h6"}>
-                      Popular Brands
-                    </Typography>
-                  </Grid>
-                  <Grid container>
-                    {popularBrand.map((brand) => (
-                      <Grid
-                        item
-                        xs={4}
-                        maxheight="100px"
-                        sx={{
-                          borderCollapse: "collapse",
-                          border: "1px solid #e1e1e1",
-                          textAlign: "center",
-                          padding: "20px 0px ",
-                          cursor: "pointer",
-                          display: "flex",
-                          justifyContent: "center",
-                          alignItems: "center",
-                          flexDirection: "column",
-                        }}
-                        onClick={() => navigate(`/cars/${brand.carBrand}`)}
-                      >
-                        <>
-                          <Grid item>
-                            <Typography
-                              component={"img"}
-                              src={brand.carBrandImage}
-                              width="50%"
-                            ></Typography>
-                          </Grid>
-                          <Grid item>
-                            <Typography component={"p"}>
-                              {brand.carBrand}
-                            </Typography>
-                          </Grid>
-                        </>
-                      </Grid>
-                    ))}
-                  </Grid>
-                </Grid>
-              </Grid>
-
-              <></>
-            </Grid> */
-}

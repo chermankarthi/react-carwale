@@ -3,27 +3,18 @@
     "carBrand": "Maruti Suzuki",
     "carBrandImage": "/maruti_suzuki/maruti_suzuki.jpg",
     "similarBrand": true,
-    "models": [
-      {
-        "model": "Maruti Fronx",
-        "carImage": "/maruti_suzuki/maruti_fronx.webp"
-      },
-      {
-        "model": "Maruti Ertiga",
-        "carImage": "/maruti_suzuki/maruti_fronx.webp"
-      }
-    ],
-
     "carArray": [
       {
         "Maruti Fronx": [
           {
             "car": "Maruti",
+            "brandName": "Maruti Suzuki",
             "model": "Maruti Fronx",
             "modelShortName": "Fronx",
             "trendingCarList": true,
+            "carDetailsHeading": "Maruti Fronx",
             "carVarientTypes": "Fronx Sigma 1.2L MT",
-            "carImage": "/maruti_suzuki/maruti_fronx.webp",
+            "carImage": "/maruti_suzuki/maruti_fronx/fronx-exterior-right-front-three-quarter-109.webp",
             "version": "Sigma 1.2L MT",
             "featuredCar": true,
             "priceStart": 7.47,
@@ -35,19 +26,6 @@
             "seatingCapacity": "5 Seater",
             "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
             "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
-            "variants": "14",
-            "engineDetails": "1197 cc, 4 Cylinders Inline, 4 Valves/Cylinder, DOHC",
-            "engineType": "1.2L Dual Jet, Dual VVT",
-            "maxPower": "89 bhp @ 6000 rpm",
-            "maxTorque": "113 Nm @ 4400 rpm",
-            "mileageDetails": 21.79,
-            "drivingRange": 806,
-            "driveTrain": "FWD",
-            "transmissionDetails": "Manual - 5 Gears",
-            "emissionStandard": "BS6 Phase 2",
-            "charger": "X",
-            "electricMotor": "-",
-            "others": "idleStart/Stop",
 
             "allImages": [
               {
@@ -93,7 +71,91 @@
             ],
             "carouselImages": [
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx.webp"
+                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-right-front-three-quarter-109.webp"
+              },
+              {
+                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-front-view-2.webp"
+              },
+              {
+                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-left-rear-three-quarter-2.webp"
+              },
+              {
+                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-rear-view-2.webp"
+              },
+              {
+                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-right-front-three-quarter-108.webp"
+              },
+              {
+                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/youtube-link.jpg"
+              }
+            ]
+          },
+          {
+            "car": "Maruti",
+            "brandName": "Maruti Suzuki",
+            "model": "Maruti Fronx",
+            "modelShortName": "Fronx",
+            "trendingCarList": true,
+            "carVarientTypes": "Fronx Sigma 1.2L MT",
+            "carDetailsHeading": "Maruti Fronx Sigma 1.2L MT",
+            "carImage": "/maruti_suzuki/maruti_fronx/fronx-exterior-right-front-three-quarter-109.webp",
+            "version": "Sigma 1.2L MT",
+            "featuredCar": true,
+            "priceStart": 7.47,
+            "priceEnd": 13.14,
+            "mileage": "20.01 to 28.51 kmpl",
+            "engine": "998 to 1197 cc",
+            "fuelType": "Petrol",
+            "transmission": "Manual, Auto",
+            "seatingCapacity": "5 Seater",
+            "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
+            "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
+
+            "allImages": [
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-side-view-2.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-bootspace-rear-seat-folded.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-dashboard-2.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-dashboard-2.webp"
+              }
+            ],
+            "powerTrain": [
+              {
+                "power": "Petrol-Manual(1197cc)",
+                "mileageARAI": "21.79 kmpl",
+                "userReportedMileage": "19.74.38"
+              },
+              {
+                "power": "CNG-Manual(1197cc)",
+                "mileageARAI": "28.51 km/kg",
+                "userReportedMileage": "22.38 km/kg"
+              }
+            ],
+            "cityPrices": [
+              {
+                "city": "Delhi",
+                "price": "Rs. 8.43 Lakh onwards"
+              },
+              {
+                "city": "Chennai",
+                "price": "Rs. 8.43 Lakh onwards"
+              }
+            ],
+            "carouselImages": [
+              {
+                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-right-front-three-quarter-109.webp"
               },
               {
                 "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-front-view-2.webp"
@@ -144,11 +206,14 @@
             }
           },
           {
+            "car": "Maruti",
+            "brandName": "Maruti Suzuki",
+            "model": "Maruti Fronx",
             "modelShortName": "Fronx",
             "carVarientTypes": "Delta Plus 1.0 Turbo MT",
-            "carImage": "/maruti_suzuki/maruti_fronx.webp",
-
+            "carImage": "/maruti_suzuki/maruti_fronx/fronx-exterior-right-front-three-quarter-109.webp",
             "version": "Sigma 1.2L MT",
+            "carDetailsHeading": "Maruti Fronx Delta Plus 1.0 Turbo MT",
             "featuredCar": true,
             "priceStart": 7.47,
             "priceEnd": 13.14,
@@ -159,104 +224,7 @@
             "seatingCapacity": "5 Seater",
             "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
             "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
-            "variants": "14",
-            "engineDetails": "1197 cc, 4 Cylinders Inline, 4 Valves/Cylinder, DOHC",
-            "engineType": "1.2L Dual Jet, Dual VVT",
-            "maxPower": "89 bhp @ 6000 rpm",
-            "maxTorque": "113 Nm @ 4400 rpm",
-            "mileageDetails": 21.79,
-            "drivingRange": 806,
-            "driveTrain": "FWD",
-            "transmissionDetails": "Manual - 5 Gears",
-            "emissionStandard": "BS6 Phase 2",
-            "charger": "X",
-            "electricMotor": "-",
-            "others": "idleStart/Stop",
-            "carouselImages": [
-              {
-                "carouselImage": "/maruti_suzuki/maruti_fronx.webp"
-              },
-              {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-front-view-2.webp"
-              },
-              {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-left-rear-three-quarter-2.webp"
-              },
-              {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-rear-view-2.webp"
-              },
-              {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-right-front-three-quarter-108.webp"
-              },
-              {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/youtube-link.jpg"
-              }
-            ],
-            "engineAndTransmission": {
-              "accelaration": "-",
-              "engine": "998 cc, 3 Cylinders Inline, 4 Valves/Cylinder, DOHC",
-              "engineType": "1.0L Turbo Boosterjet",
-              "fuelType": "Petrol",
-              "maxPower": "99 bhp @ 5500 rpm",
-              "maxTorque": "147.6 Nm @ 2000 rpm",
-              "mileage": "21.5",
-              "drivingRange": "796",
-              "drivetrain": "FWD",
-              "transmission": "Manual - 5 Gears",
-              "emissionStandard": "BS6 Phase 2",
-              "others": "Regenerative Braking, Idle Start/Stop"
-            },
-            "dimensionAndWeight": {
-              "length": "3995",
-              "width": "1765",
-              "height": "1550",
-              "wheelBase": "2520",
-              "groundClearance": "190"
-            },
-            "safety": {
-              "overSpeedWarning": "1 beep over 80kmph, Continuous beeps over 120kmph",
-              "airBags": "2 Airbags (Driver, Front Passenger)",
-              "rearMiddleThreePointSeatbelt": "Yes"
-            },
-            "breakAndTraction": {
-              "abs": "yes",
-              "ebd": "yes",
-              "ba": "yes"
-            }
-          }
-        ]
-      },
-      {
-        "Maruti Ertiga": [
-          {
-            "modelShortName": "Ertiga",
-            "model": "Maruti Ertiga",
-            "carVarientTypes": "Ertiga LXi (O)",
-            "carImage": "/maruti_suzuki/maruti_fronx.webp",
-            "version": "Sigma 1.2L MT",
-            "featuredCar": false,
-            "priceStart": 8.69,
-            "priceEnd": 13.03,
-            "mileage": "20.03 to 26.11 kmpl",
-            "engine": "1462 cc",
-            "fuelType": "Petrol",
-            "transmission": "Manual",
-            "seatingCapacity": "7 Seater",
-            "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
-            "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
-            "variants": "14",
-            "engineDetails": "1462 cc, 4 Cylinders Inline, 4 Valves/Cylinder, DOHC",
-            "engineType": "K15C Smart Hybrid",
-            "maxPower": "102 bhp @ 6000 rpm",
-            "maxTorque": "136.8 Nm @ 4400 rpm",
-            "mileageDetails": 20.51,
-            "drivingRange": 923,
-            "driveTrain": "FWD",
-            "transmissionDetails": "Manual - 5 Gears",
-            "emissionStandard": "BS6 Phase 2",
-            "charger": "X",
-            "electricMotor": "-",
-            "others": "idleStart/Stop",
+
             "allImages": [
               {
                 "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
@@ -301,7 +269,7 @@
             ],
             "carouselImages": [
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx.webp"
+                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-right-front-three-quarter-109.webp"
               },
               {
                 "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-front-view-2.webp"
@@ -319,7 +287,217 @@
                 "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/youtube-link.jpg"
               }
             ],
+            "engineAndTransmission": {
+              "accelaration": "-",
+              "engine": "998 cc, 3 Cylinders Inline, 4 Valves/Cylinder, DOHC ",
+              "engineType": "1.0L Turbo Boosterjet",
+              "fuelType": "Petrol",
+              "maxPower": "99 bhp @ 5500 rpm",
+              "maxTorque": "147.6 Nm @ 2000 rpm",
+              "mileage": "21.5",
+              "drivingRange": "796",
+              "drivetrain": "FWD",
+              "transmission": "Manual - 5 Gears",
+              "emissionStandard": "BS6 Phase 2",
+              "others": "Regenerative Braking, Idle Start/Stop"
+            },
+            "dimensionAndWeight": {
+              "length": "3995",
+              "width": "1765",
+              "height": "1550",
+              "wheelBase": "2520",
+              "groundClearance": "190"
+            },
+            "safety": {
+              "overSpeedWarning": "1 beep over 80kmph, Continuous beeps over 120kmph",
+              "airBags": "2 Airbags (Driver, Front Passenger)",
+              "rearMiddleThreePointSeatbelt": "Yes"
+            },
+            "breakAndTraction": {
+              "abs": "yes",
+              "ebd": "yes",
+              "ba": "yes"
+            }
+          }
+        ]
+      },
+      {
+        "Maruti Ertiga": [
+          {
+            "car": "Maruti",
+            "brandName": "Maruti Suzuki",
+            "modelShortName": "Ertiga",
+            "model": "Maruti Ertiga",
+            "carVarientTypes": "Ertiga LXi (O)",
+            "carDetailsHeading": "Maruti Ertiga LXi (O)",
+            "carImage": "/maruti_suzuki/maruti_ertiga/ertiga-exterior-right-front-three-quarter-5.webp",
+            "version": "Sigma 1.2L MT",
+            "featuredCar": false,
+            "priceStart": 8.69,
+            "priceEnd": 13.03,
+            "mileage": "20.03 to 26.11 kmpl",
+            "engine": "1462 cc",
+            "fuelType": "Petrol",
+            "transmission": "Manual",
+            "seatingCapacity": "7 Seater",
+            "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
+            "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
 
+            "allImages": [
+              {
+                "imag": "/maruti_suzuki/maruti_ertiga/ertiga-exterior-right-front-three-quarter-5.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_ertiga/ertiga-exterior-left-rear-three-quarter.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_ertiga/ertiga-exterior-rear-view.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_ertiga/ertiga-exterior-right-front-three-quarter-9.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_ertiga/ mqdefault.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_ertiga/ertiga-exterior-right-rear-three-quarter.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_ertiga/ ertiga-exterior-right-side-view-2.webp"
+              }
+            ],
+            "powerTrain": [
+              {
+                "power": "Petrol-Manual(1197cc)",
+                "mileageARAI": "21.79 kmpl",
+                "userReportedMileage": "19.74.38"
+              },
+              {
+                "power": "CNG-Manual(1197cc)",
+                "mileageARAI": "28.51 km/kg",
+                "userReportedMileage": "22.38 km/kg"
+              }
+            ],
+            "cityPrices": [
+              {
+                "city": "Delhi",
+                "price": "Rs. 8.43 Lakh onwards"
+              },
+              {
+                "city": "Chennai",
+                "price": "Rs. 8.43 Lakh onwards"
+              }
+            ],
+
+            "carouselImages": [
+              {
+                "carouselImage": "/maruti_suzuki/maruti_ertiga/carousel/ertiga-exterior-right-front-three-quarter-5.webp"
+              },
+              {
+                "carouselImage": "/maruti_suzuki/maruti_ertiga/carousel/ertiga-exterior-left-rear-three-quarter.webp"
+              },
+              {
+                "carouselImage": "/maruti_suzuki/maruti_ertiga/carousel/ertiga-exterior-rear-view.webp"
+              },
+              {
+                "carouselImage": "/maruti_suzuki/maruti_ertiga/carousel/ertiga-exterior-right-front-three-quarter-9.webp"
+              },
+              {
+                "carouselImage": "/maruti_suzuki/maruti_ertiga/carousel/mqdefault.jpg"
+              },
+              {
+                "carouselImage": "/maruti_suzuki/maruti_ertiga/carousel/ertiga-exterior-right-rear-three-quarter.webp"
+              },
+              {
+                "carouselImage": "/maruti_suzuki/maruti_ertiga/carousel/ertiga-exterior-right-side-view-2.webp"
+              }
+            ]
+          },
+          {
+            "car": "Maruti",
+            "brandName": "Maruti Suzuki",
+            "modelShortName": "Ertiga",
+            "model": "Maruti Ertiga",
+            "carVarientTypes": "Ertiga LXi (O)",
+            "carDetailsHeading": "Maruti Ertiga LXi (O)",
+            "carImage": "/maruti_suzuki/maruti_ertiga/ertiga-exterior-right-front-three-quarter-5.webp",
+            "version": "Sigma 1.2L MT",
+            "featuredCar": false,
+            "priceStart": 8.69,
+            "priceEnd": 13.03,
+            "mileage": "20.03 to 26.11 kmpl",
+            "engine": "1462 cc",
+            "fuelType": "Petrol",
+            "transmission": "Manual",
+            "seatingCapacity": "7 Seater",
+            "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
+            "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
+
+            "allImages": [
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-side-view-2.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-bootspace-rear-seat-folded.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-dashboard-2.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-dashboard-2.webp"
+              }
+            ],
+            "powerTrain": [
+              {
+                "power": "Petrol-Manual(1197cc)",
+                "mileageARAI": "21.79 kmpl",
+                "userReportedMileage": "19.74.38"
+              },
+              {
+                "power": "CNG-Manual(1197cc)",
+                "mileageARAI": "28.51 km/kg",
+                "userReportedMileage": "22.38 km/kg"
+              }
+            ],
+            "cityPrices": [
+              {
+                "city": "Delhi",
+                "price": "Rs. 8.43 Lakh onwards"
+              },
+              {
+                "city": "Chennai",
+                "price": "Rs. 8.43 Lakh onwards"
+              }
+            ],
+            "carouselImages": [
+              {
+                "carouselImage": "/maruti_suzuki/maruti_ertiga/carousel/ertiga-exterior-right-front-three-quarter-5.webp"
+              },
+              {
+                "carouselImage": "/maruti_suzuki/maruti_ertiga/carousel/ertiga-exterior-left-rear-three-quarter.webp"
+              },
+              {
+                "carouselImage": "/maruti_suzuki/maruti_ertiga/carousel/ertiga-exterior-rear-view.webp"
+              },
+              {
+                "carouselImage": "/maruti_suzuki/maruti_ertiga/carousel/ertiga-exterior-right-front-three-quarter-9.webp"
+              },
+              {
+                "carouselImage": "/maruti_suzuki/maruti_ertiga/carousel/mqdefault.jpg"
+              },
+              {
+                "carouselImage": "/maruti_suzuki/maruti_ertiga/carousel/ertiga-exterior-right-rear-three-quarter.webp"
+              },
+              {
+                "carouselImage": "/maruti_suzuki/maruti_ertiga/carousel/ertiga-exterior-right-side-view-2.webp"
+              }
+            ],
             "engineAndTransmission": {
               "accelaration": "-",
               "engine": "1462 cc, 4 Cylinders Inline, 4 Valves/Cylinder, DOHC",
@@ -355,9 +533,13 @@
             }
           },
           {
+            "car": "Maruti",
+            "brandName": "Maruti Suzuki",
+            "model": "Maruti Ertiga",
             "modelShortName": "Ertiga",
             "carVarientTypes": "Ertiga VXi (O) CNG",
-            "carImage": "/maruti_suzuki/maruti_fronx.webp",
+            "carDetailsHeading": "Maruti Ertiga VXi (O) CNG",
+            "carImage": "/maruti_suzuki/maruti_ertiga/ertiga-exterior-right-front-three-quarter-5.webp",
             "version": "VXi (O) CNG",
             "featuredCar": false,
             "priceStart": 7.47,
@@ -369,19 +551,7 @@
             "seatingCapacity": "7 Seater",
             "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
             "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
-            "variants": "14",
-            "engineDetails": "1462 cc, 4 Cylinders Inline, 4 Valves/Cylinder, DOHC",
-            "engineType": "K15C",
-            "maxPower": "87 bhp @ 5500 rpm",
-            "maxTorque": "121.5 Nm @ 4200 rpm",
-            "mileageDetails": 26.11,
-            "drivingRange": 1566,
-            "driveTrain": "FWD",
-            "transmissionDetails": "Manual - 5 Gears",
-            "emissionStandard": "BS6 Phase 2",
-            "charger": "X",
-            "electricMotor": "-",
-            "others": "idleStart/Stop",
+
             "allImages": [
               {
                 "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
@@ -426,22 +596,25 @@
             ],
             "carouselImages": [
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx.webp"
+                "carouselImage": "/maruti_suzuki/maruti_ertiga/carousel/ertiga-exterior-right-front-three-quarter-5.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-front-view-2.webp"
+                "carouselImage": "/maruti_suzuki/maruti_ertiga/carousel/ertiga-exterior-left-rear-three-quarter.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-left-rear-three-quarter-2.webp"
+                "carouselImage": "/maruti_suzuki/maruti_ertiga/carousel/ertiga-exterior-rear-view.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-rear-view-2.webp"
+                "carouselImage": "/maruti_suzuki/maruti_ertiga/carousel/ertiga-exterior-right-front-three-quarter-9.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-right-front-three-quarter-108.webp"
+                "carouselImage": "/maruti_suzuki/maruti_ertiga/carousel/mqdefault.jpg"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/youtube-link.jpg"
+                "carouselImage": "/maruti_suzuki/maruti_ertiga/carousel/ertiga-exterior-right-rear-three-quarter.webp"
+              },
+              {
+                "carouselImage": "/maruti_suzuki/maruti_ertiga/carousel/ertiga-exterior-right-side-view-2.webp"
               }
             ],
             "engineAndTransmission": {
@@ -490,11 +663,14 @@
       {
         "Tata Nexon": [
           {
+            "car": "Tata",
+            "brandName": "Tata",
             "model": "Tata Nexon",
             "modelShortName": "Nexon",
             "carVarientTypes": "Smart (O) 1.2 Petrol 5MT",
-            "carImage": "/maruti_suzuki/maruti_fronx.webp",
+            "carImage": "/tata/tata_nexon/nexon-exterior-right-front-three-quarter-71.webp",
             "version": "Sigma 1.2L MT",
+            "carDetailsHeading": "Tata Nexon",
             "featuredCar": true,
             "priceStart": 8.6,
             "priceEnd": 14.2,
@@ -505,19 +681,7 @@
             "seatingCapacity": "5 Seater",
             "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
             "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
-            "variants": "14",
-            "engineDetails": "1199 cc, 3 Cylinders Inline, 2 Valves/Cylinder, SOHC",
-            "engineType": "1.2L Turbocharged Revotron Engine",
-            "maxPower": "118 bhp @ 5500 rpm",
-            "maxTorque": "170 Nm @ 1750-4000 rpm",
-            "mileageDetails": 17.44,
-            "drivingRange": 767,
-            "driveTrain": "FWD",
-            "transmissionDetails": "Manual - 5 Gears, Sport Mode",
-            "emissionStandard": "BS6 Phase 2",
-            "charger": "Turbocharged",
-            "electricMotor": "-",
-            "others": "idleStart/Stop",
+
             "allImages": [
               {
                 "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
@@ -562,22 +726,111 @@
             ],
             "carouselImages": [
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx.webp"
+                "carouselImage": "/tata/tata_nexon/carousel/nexon-exterior-right-front-three-quarter-71.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-front-view-2.webp"
+                "carouselImage": "/tata/tata_nexon/carousel/nexon-facelift-exterior-left-front-three-quarter-4.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-left-rear-three-quarter-2.webp"
+                "carouselImage": "/tata/tata_nexon/carousel/mqdefault.jpg"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-rear-view-2.webp"
+                "carouselImage": "/tata/tata_nexon/carousel/nexon-facelift-exterior-left-side-view.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-right-front-three-quarter-108.webp"
+                "carouselImage": "/tata/tata_nexon/carousel/nexon-facelift-exterior-rear-view.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/youtube-link.jpg"
+                "carouselImage": "/tata/tata_nexon/carousel/nexon-facelift-exterior-right-front-three-quarter-69.webp"
+              },
+              {
+                "carouselImage": "/tata/tata_nexon/carousel/nexon-facelift-exterior-right-rear-three-quarter.webp"
+              }
+            ]
+          },
+          {
+            "car": "Tata",
+            "brandName": "Tata",
+            "model": "Tata Nexon",
+            "modelShortName": "Nexon",
+            "carDetailsHeading": "Tata Nexon Smart (O) 1.2 Petrol 5MT",
+            "carVarientTypes": "Smart (O) 1.2 Petrol 5MT",
+            "carImage": "/tata/tata_nexon/nexon-exterior-right-front-three-quarter-71.webp",
+            "version": "Sigma 1.2L MT",
+            "featuredCar": true,
+            "priceStart": 8.6,
+            "priceEnd": 14.2,
+            "mileage": "20.01 to 28.51 kmpl",
+            "engine": "998 to 1197 cc",
+            "fuelType": "Petrol",
+            "transmission": "Manual, Auto",
+            "seatingCapacity": "5 Seater",
+            "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
+            "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
+
+            "allImages": [
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-side-view-2.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-bootspace-rear-seat-folded.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-dashboard-2.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-dashboard-2.webp"
+              }
+            ],
+            "powerTrain": [
+              {
+                "power": "Petrol-Manual(1197cc)",
+                "mileageARAI": "21.79 kmpl",
+                "userReportedMileage": "19.74.38"
+              },
+              {
+                "power": "CNG-Manual(1197cc)",
+                "mileageARAI": "28.51 km/kg",
+                "userReportedMileage": "22.38 km/kg"
+              }
+            ],
+            "cityPrices": [
+              {
+                "city": "Delhi",
+                "price": "Rs. 8.43 Lakh onwards"
+              },
+              {
+                "city": "Chennai",
+                "price": "Rs. 8.43 Lakh onwards"
+              }
+            ],
+            "carouselImages": [
+              {
+                "carouselImage": "/tata/tata_nexon/carousel/nexon-exterior-right-front-three-quarter-71.webp"
+              },
+              {
+                "carouselImage": "/tata/tata_nexon/carousel/nexon-facelift-exterior-left-front-three-quarter-4.webp"
+              },
+              {
+                "carouselImage": "/tata/tata_nexon/carousel/mqdefault.jpg"
+              },
+              {
+                "carouselImage": "/tata/tata_nexon/carousel/nexon-facelift-exterior-left-side-view.webp"
+              },
+              {
+                "carouselImage": "/tata/tata_nexon/carousel/nexon-facelift-exterior-rear-view.webp"
+              },
+              {
+                "carouselImage": "/tata/tata_nexon/carousel/nexon-facelift-exterior-right-front-three-quarter-69.webp"
+              },
+              {
+                "carouselImage": "/tata/tata_nexon/carousel/nexon-facelift-exterior-right-rear-three-quarter.webp"
               }
             ],
             "engineAndTransmission": {
@@ -617,10 +870,13 @@
             }
           },
           {
+            "car": "Tata",
+            "brandName": "Tata",
             "model": "Tata Nexon",
             "modelShortName": "Nexon",
+            "carDetailsHeading": "Tata Nexon Pure 1.5 Diesel 6MT",
             "carVarientTypes": "Pure 1.5 Diesel 6MT",
-            "carImage": "/maruti_suzuki/maruti_fronx.webp",
+            "carImage": "/tata/tata_nexon/nexon-exterior-right-front-three-quarter-71.webp",
             "version": "Sigma 1.2L MT",
             "featuredCar": true,
             "priceStart": 7.47,
@@ -689,22 +945,25 @@
             ],
             "carouselImages": [
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx.webp"
+                "carouselImage": "/tata/tata_nexon/carousel/nexon-exterior-right-front-three-quarter-71.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-front-view-2.webp"
+                "carouselImage": "/tata/tata_nexon/carousel/nexon-facelift-exterior-left-front-three-quarter-4.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-left-rear-three-quarter-2.webp"
+                "carouselImage": "/tata/tata_nexon/carousel/mqdefault.jpg"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-rear-view-2.webp"
+                "carouselImage": "/tata/tata_nexon/carousel/nexon-facelift-exterior-left-side-view.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-right-front-three-quarter-108.webp"
+                "carouselImage": "/tata/tata_nexon/carousel/nexon-facelift-exterior-rear-view.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/youtube-link.jpg"
+                "carouselImage": "/tata/tata_nexon/carousel/nexon-facelift-exterior-right-front-three-quarter-69.webp"
+              },
+              {
+                "carouselImage": "/tata/tata_nexon/carousel/nexon-facelift-exterior-right-rear-three-quarter.webp"
               }
             ],
             "engineAndTransmission": {
@@ -748,10 +1007,13 @@
       {
         "Tata Punch": [
           {
+            "car": "Tata",
+            "brandName": "Tata",
             "model": "Tata Punch",
             "modelShortName": "Punch",
             "carVarientTypes": "Pure MT",
-            "carImage": "/maruti_suzuki/maruti_fronx.webp",
+            "carDetailsHeading": "Tata Punch Pure MT",
+            "carImage": "/tata/tata_punch/punch-exterior-right-front-three-quarter-54.webp",
             "version": "Sigma 1.2L MT",
             "featuredCar": true,
             "priceStart": 7.47,
@@ -763,19 +1025,7 @@
             "seatingCapacity": "5 Seater",
             "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
             "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
-            "variants": "14",
-            "engineDetails": "1197 cc, 4 Cylinders Inline, 4 Valves/Cylinder, DOHC",
-            "engineType": "1.2L Dual Jet, Dual VVT",
-            "maxPower": "89 bhp @ 6000 rpm",
-            "maxTorque": "113 Nm @ 4400 rpm",
-            "mileageDetails": 21.79,
-            "drivingRange": 806,
-            "driveTrain": "FWD",
-            "transmissionDetails": "Manual - 5 Gears",
-            "emissionStandard": "BS6 Phase 2",
-            "charger": "X",
-            "electricMotor": "-",
-            "others": "idleStart/Stop",
+
             "allImages": [
               {
                 "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
@@ -820,22 +1070,111 @@
             ],
             "carouselImages": [
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx.webp"
+                "carouselImage": "/tata/tata_punch/carousel/punch-exterior-right-front-three-quarter-54.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-front-view-2.webp"
+                "carouselImage": "/tata/tata_punch/carousel/punch-exterior-right-front-three-quarter-53.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-left-rear-three-quarter-2.webp"
+                "carouselImage": "/tata/tata_punch/carousel/punch-exterior-rear-view.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-rear-view-2.webp"
+                "carouselImage": "/tata/tata_punch/carousel/punch-exterior-left-side-view-5.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-right-front-three-quarter-108.webp"
+                "carouselImage": "/tata/tata_punch/carousel/mqdefault.jpg"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/youtube-link.jpg"
+                "carouselImage": "/tata/tata_punch/carousel/punch-exterior-left-front-three-quarter-3.webp"
+              },
+              {
+                "carouselImage": "/tata/tata_punch/carousel/punch-exterior-left-rear-three-quarter.webp"
+              }
+            ]
+          },
+          {
+            "car": "Tata",
+            "brandName": "Tata",
+            "model": "Tata Punch",
+            "modelShortName": "Punch",
+            "carVarientTypes": "Pure MT",
+            "carDetailsHeading": "Tata Punch Pure MT",
+            "carImage": "/tata/tata_punch/punch-exterior-right-front-three-quarter-54.webp",
+            "version": "Sigma 1.2L MT",
+            "featuredCar": true,
+            "priceStart": 7.47,
+            "priceEnd": 13.14,
+            "mileage": "20.01 to 28.51 kmpl",
+            "engine": "998 to 1197 cc",
+            "fuelType": "Automic",
+            "transmission": "Manual, Auto",
+            "seatingCapacity": "5 Seater",
+            "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
+            "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
+
+            "allImages": [
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-side-view-2.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-bootspace-rear-seat-folded.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-dashboard-2.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-dashboard-2.webp"
+              }
+            ],
+            "powerTrain": [
+              {
+                "power": "Petrol-Manual(1197cc)",
+                "mileageARAI": "21.79 kmpl",
+                "userReportedMileage": "19.74.38"
+              },
+              {
+                "power": "CNG-Manual(1197cc)",
+                "mileageARAI": "28.51 km/kg",
+                "userReportedMileage": "22.38 km/kg"
+              }
+            ],
+            "cityPrices": [
+              {
+                "city": "Delhi",
+                "price": "Rs. 8.43 Lakh onwards"
+              },
+              {
+                "city": "Chennai",
+                "price": "Rs. 8.43 Lakh onwards"
+              }
+            ],
+            "carouselImages": [
+              {
+                "carouselImage": "/tata/tata_punch/carousel/punch-exterior-right-front-three-quarter-54.webp"
+              },
+              {
+                "carouselImage": "/tata/tata_punch/carousel/punch-exterior-right-front-three-quarter-53.webp"
+              },
+              {
+                "carouselImage": "/tata/tata_punch/carousel/punch-exterior-rear-view.webp"
+              },
+              {
+                "carouselImage": "/tata/tata_punch/carousel/punch-exterior-left-side-view-5.webp"
+              },
+              {
+                "carouselImage": "/tata/tata_punch/carousel/mqdefault.jpg"
+              },
+              {
+                "carouselImage": "/tata/tata_punch/carousel/punch-exterior-left-front-three-quarter-3.webp"
+              },
+              {
+                "carouselImage": "/tata/tata_punch/carousel/punch-exterior-left-rear-three-quarter.webp"
               }
             ],
             "engineAndTransmission": {
@@ -875,10 +1214,13 @@
             }
           },
           {
+            "car": "Tata",
+            "brandName": "Tata",
+            "carDetailsHeading": "Tata Punch Creative",
             "model": "Tata Punch",
             "modelShortName": "Punch",
             "carVarientTypes": "Creative",
-            "carImage": "/maruti_suzuki/maruti_fronx.webp",
+            "carImage": "/tata/tata_punch/punch-exterior-right-front-three-quarter-54.webp",
             "version": "Sigma 1.2L MT",
             "featuredCar": true,
             "priceStart": 7.47,
@@ -890,19 +1232,7 @@
             "seatingCapacity": "5 Seater",
             "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
             "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
-            "variants": "14",
-            "engineDetails": "1197 cc, 4 Cylinders Inline, 4 Valves/Cylinder, DOHC",
-            "engineType": "1.2L Dual Jet, Dual VVT",
-            "maxPower": "89 bhp @ 6000 rpm",
-            "maxTorque": "113 Nm @ 4400 rpm",
-            "mileageDetails": 21.79,
-            "drivingRange": 806,
-            "driveTrain": "FWD",
-            "transmissionDetails": "Manual - 5 Gears",
-            "emissionStandard": "BS6 Phase 2",
-            "charger": "X",
-            "electricMotor": "-",
-            "others": "idleStart/Stop",
+
             "allImages": [
               {
                 "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
@@ -947,22 +1277,25 @@
             ],
             "carouselImages": [
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx.webp"
+                "carouselImage": "/tata/tata_punch/carousel/punch-exterior-right-front-three-quarter-54.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-front-view-2.webp"
+                "carouselImage": "/tata/tata_punch/carousel/punch-exterior-right-front-three-quarter-53.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-left-rear-three-quarter-2.webp"
+                "carouselImage": "/tata/tata_punch/carousel/punch-exterior-rear-view.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-rear-view-2.webp"
+                "carouselImage": "/tata/tata_punch/carousel/punch-exterior-left-side-view-5.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-right-front-three-quarter-108.webp"
+                "carouselImage": "/tata/tata_punch/carousel/mqdefault.jpg"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/youtube-link.jpg"
+                "carouselImage": "/tata/tata_punch/carousel/punch-exterior-left-front-three-quarter-3.webp"
+              },
+              {
+                "carouselImage": "/tata/tata_punch/carousel/punch-exterior-left-rear-three-quarter.webp"
               }
             ],
             "engineAndTransmission": {
@@ -1014,10 +1347,13 @@
       {
         "Hyundai Exter": [
           {
+            "car": "Hyundai",
+            "brandName": "Hyundai",
             "model": "Hyundai Exter",
             "modelShortName": "Exter",
+            "carDetailsHeading": "Hyundai Exter",
             "carVarientTypes": "Exter EX 1.2 MT",
-            "carImage": "/maruti_suzuki/maruti_fronx.webp",
+            "carImage": "/hyundai/hyundai_exter/exter-exterior-right-front-three-quarter-29.webp",
             "version": "Sigma 1.2L MT",
             "featuredCar": true,
             "priceStart": 8.6,
@@ -1029,19 +1365,7 @@
             "seatingCapacity": "5 Seater",
             "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
             "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
-            "variants": "14",
-            "engineDetails": "1199 cc, 3 Cylinders Inline, 2 Valves/Cylinder, SOHC",
-            "engineType": "1.2L Turbocharged Revotron Engine",
-            "maxPower": "118 bhp @ 5500 rpm",
-            "maxTorque": "170 Nm @ 1750-4000 rpm",
-            "mileageDetails": 17.44,
-            "drivingRange": 767,
-            "driveTrain": "FWD",
-            "transmissionDetails": "Manual - 5 Gears, Sport Mode",
-            "emissionStandard": "BS6 Phase 2",
-            "charger": "Turbocharged",
-            "electricMotor": "-",
-            "others": "idleStart/Stop",
+
             "allImages": [
               {
                 "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
@@ -1086,22 +1410,113 @@
             ],
             "carouselImages": [
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx.webp"
+                "carouselImage": "/hyundai/hyundai_exter/carousel/hyundai_i20.webp"
+              },
+
+              {
+                "carouselImage": "/hyundai/hyundai_exter/carousel/exter-exterior-left-rear-three-quarter.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-front-view-2.webp"
+                "carouselImage": "/hyundai/hyundai_exter/carousel/exter-exterior-right-front-three-quarter-62.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-left-rear-three-quarter-2.webp"
+                "carouselImage": "/hyundai/hyundai_exter/carousel/exter-exterior-right-rear-three-quarter-3.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-rear-view-2.webp"
+                "carouselImage": "/hyundai/hyundai_exter/carousel/mqdefault.jpg"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-right-front-three-quarter-108.webp"
+                "carouselImage": "/hyundai/hyundai_exter/carousel/exter-exterior-right-side-view.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/youtube-link.jpg"
+                "carouselImage": "/hyundai/hyundai_exter/carousel/exter-exterior-right-side-view-36.webp"
+              }
+            ]
+          },
+          {
+            "car": "Hyundai",
+            "brandName": "Hyundai",
+            "model": "Hyundai Exter",
+            "modelShortName": "Exter",
+            "carDetailsHeading": "Hyundai Exter EX 1.2 MT",
+            "carVarientTypes": "Exter EX 1.2 MT",
+            "carImage": "/hyundai/hyundai_exter/exter-exterior-right-front-three-quarter-29.webp",
+            "version": "Sigma 1.2L MT",
+            "featuredCar": true,
+            "priceStart": 8.6,
+            "priceEnd": 14.2,
+            "mileage": "20.01 to 28.51 kmpl",
+            "engine": "998 to 1197 cc",
+            "fuelType": "Petrol",
+            "transmission": "Manual, Auto",
+            "seatingCapacity": "5 Seater",
+            "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
+            "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
+
+            "allImages": [
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-side-view-2.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-bootspace-rear-seat-folded.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-dashboard-2.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-dashboard-2.webp"
+              }
+            ],
+            "powerTrain": [
+              {
+                "power": "Petrol-Manual(1197cc)",
+                "mileageARAI": "21.79 kmpl",
+                "userReportedMileage": "19.74.38"
+              },
+              {
+                "power": "CNG-Manual(1197cc)",
+                "mileageARAI": "28.51 km/kg",
+                "userReportedMileage": "22.38 km/kg"
+              }
+            ],
+            "cityPrices": [
+              {
+                "city": "Delhi",
+                "price": "Rs. 8.43 Lakh onwards"
+              },
+              {
+                "city": "Chennai",
+                "price": "Rs. 8.43 Lakh onwards"
+              }
+            ],
+            "carouselImages": [
+              {
+                "carouselImage": "/hyundai/hyundai_exter/carousel/hyundai_i20.webp"
+              },
+
+              {
+                "carouselImage": "/hyundai/hyundai_exter/carousel/exter-exterior-left-rear-three-quarter.webp"
+              },
+              {
+                "carouselImage": "/hyundai/hyundai_exter/carousel/exter-exterior-right-front-three-quarter-62.webp"
+              },
+              {
+                "carouselImage": "/hyundai/hyundai_exter/carousel/exter-exterior-right-rear-three-quarter-3.webp"
+              },
+              {
+                "carouselImage": "/hyundai/hyundai_exter/carousel/mqdefault.jpg"
+              },
+              {
+                "carouselImage": "/hyundai/hyundai_exter/carousel/exter-exterior-right-side-view.webp"
+              },
+              {
+                "carouselImage": "/hyundai/hyundai_exter/carousel/exter-exterior-right-side-view-36.webp"
               }
             ],
             "engineAndTransmission": {
@@ -1141,10 +1556,13 @@
             }
           },
           {
+            "car": "Hyundai",
+            "brandName": "Hyundai",
             "model": "Hyundai Exter",
             "modelShortName": "Exter",
             "carVarientTypes": "Exter S 1.2 MT",
-            "carImage": "/maruti_suzuki/maruti_fronx.webp",
+            "carDetailsHeading": "Hyundai Exter S 1.2 MT",
+            "carImage": "/hyundai/hyundai_exter/exter-exterior-right-front-three-quarter-29.webp",
             "version": "Sigma 1.2L MT",
             "featuredCar": true,
             "priceStart": 7.47,
@@ -1156,19 +1574,7 @@
             "seatingCapacity": "5 Seater",
             "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
             "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
-            "variants": "14",
-            "engineDetails": "1199 cc, 3 Cylinders Inline, 2 Valves/Cylinder, SOHC",
-            "engineType": "1.2L Turbocharged Revotron Engine",
-            "maxPower": "118 bhp @ 5500 rpm",
-            "maxTorque": "170 Nm @ 1750-4000 rpm",
-            "mileageDetails": 17.44,
-            "drivingRange": 766,
-            "driveTrain": "FWD",
-            "transmissionDetails": "Manual - 6 Gears, Sport Mode",
-            "emissionStandard": "BS6 Phase 2",
-            "charger": "Turbocharged",
-            "electricMotor": "-",
-            "others": "idleStart/Stop",
+
             "allImages": [
               {
                 "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
@@ -1213,22 +1619,26 @@
             ],
             "carouselImages": [
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx.webp"
+                "carouselImage": "/hyundai/hyundai_exter/carousel/hyundai_i20.webp"
+              },
+
+              {
+                "carouselImage": "/hyundai/hyundai_exter/carousel/exter-exterior-left-rear-three-quarter.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-front-view-2.webp"
+                "carouselImage": "/hyundai/hyundai_exter/carousel/exter-exterior-right-front-three-quarter-62.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-left-rear-three-quarter-2.webp"
+                "carouselImage": "/hyundai/hyundai_exter/carousel/exter-exterior-right-rear-three-quarter-3.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-rear-view-2.webp"
+                "carouselImage": "/hyundai/hyundai_exter/carousel/mqdefault.jpg"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-right-front-three-quarter-108.webp"
+                "carouselImage": "/hyundai/hyundai_exter/carousel/exter-exterior-right-side-view.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/youtube-link.jpg"
+                "carouselImage": "/hyundai/hyundai_exter/carousel/exter-exterior-right-side-view-36.webp"
               }
             ],
             "engineAndTransmission": {
@@ -1270,12 +1680,15 @@
         ]
       },
       {
-        "Hyundai Creta ": [
+        "Hyundai Creta": [
           {
+            "car": "Hyundai",
+            "brandName": "Hyundai",
             "model": "Hyundai Creta",
             "modelShortName": "Creta",
             "carVarientTypes": "Creta E 1.5 Petrol",
-            "carImage": "/maruti_suzuki/maruti_fronx.webp",
+            "carDetailsHeading": "Hyundai Creta",
+            "carImage": "/hyundai/hyundai_creta/creta-exterior-right-front-three-quarter-4.webp",
             "version": "Sigma 1.2L MT",
             "featuredCar": true,
             "priceStart": 7.47,
@@ -1287,19 +1700,7 @@
             "seatingCapacity": "5 Seater",
             "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
             "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
-            "variants": "14",
-            "engineDetails": "1197 cc, 4 Cylinders Inline, 4 Valves/Cylinder, DOHC",
-            "engineType": "1.2L Dual Jet, Dual VVT",
-            "maxPower": "89 bhp @ 6000 rpm",
-            "maxTorque": "113 Nm @ 4400 rpm",
-            "mileageDetails": 21.79,
-            "drivingRange": 806,
-            "driveTrain": "FWD",
-            "transmissionDetails": "Manual - 5 Gears",
-            "emissionStandard": "BS6 Phase 2",
-            "charger": "X",
-            "electricMotor": "-",
-            "others": "idleStart/Stop",
+
             "allImages": [
               {
                 "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
@@ -1344,22 +1745,111 @@
             ],
             "carouselImages": [
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx.webp"
+                "carouselImage": "/hyundai/hyundai_creta/carousel/creta-exterior-right-front-three-quarter-4.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-front-view-2.webp"
+                "carouselImage": "/hyundai/hyundai_creta/carousel/creta-exterior-right-rear-three-quarter-2.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-left-rear-three-quarter-2.webp"
+                "carouselImage": "/hyundai/hyundai_creta/carousel/creta-exterior-right-front-three-quarter-2.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-rear-view-2.webp"
+                "carouselImage": "/hyundai/hyundai_creta/carousel/creta-exterior-rear-view.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-right-front-three-quarter-108.webp"
+                "carouselImage": "/hyundai/hyundai_creta/carousel/mqdefault.jpg"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/youtube-link.jpg"
+                "carouselImage": "/hyundai/hyundai_creta/carousel/creta-exterior-left-side-view-4.webp"
+              },
+              {
+                "carouselImage": "/hyundai/hyundai_creta/carousel/creta-exterior-left-side-view.webp"
+              }
+            ]
+          },
+          {
+            "car": "Hyundai",
+            "brandName": "Hyundai",
+            "model": "Hyundai Creta",
+            "modelShortName": "Creta",
+            "carVarientTypes": "Creta E 1.5 Petrol",
+            "carDetailsHeading": "Hyundai Creta E 1.5 Petrol",
+            "carImage": "/hyundai/hyundai_creta/creta-exterior-right-front-three-quarter-4.webp",
+            "version": "Sigma 1.2L MT",
+            "featuredCar": true,
+            "priceStart": 7.47,
+            "priceEnd": 13.14,
+            "mileage": "20.01 to 28.51 kmpl",
+            "engine": "998 to 1197 cc",
+            "fuelType": "Automic",
+            "transmission": "Manual, Auto",
+            "seatingCapacity": "5 Seater",
+            "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
+            "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
+
+            "allImages": [
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-side-view-2.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-bootspace-rear-seat-folded.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-dashboard-2.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-dashboard-2.webp"
+              }
+            ],
+            "powerTrain": [
+              {
+                "power": "Petrol-Manual(1197cc)",
+                "mileageARAI": "21.79 kmpl",
+                "userReportedMileage": "19.74.38"
+              },
+              {
+                "power": "CNG-Manual(1197cc)",
+                "mileageARAI": "28.51 km/kg",
+                "userReportedMileage": "22.38 km/kg"
+              }
+            ],
+            "cityPrices": [
+              {
+                "city": "Delhi",
+                "price": "Rs. 8.43 Lakh onwards"
+              },
+              {
+                "city": "Chennai",
+                "price": "Rs. 8.43 Lakh onwards"
+              }
+            ],
+            "carouselImages": [
+              {
+                "carouselImage": "/hyundai/hyundai_creta/carousel/creta-exterior-right-front-three-quarter-4.webp"
+              },
+              {
+                "carouselImage": "/hyundai/hyundai_creta/carousel/creta-exterior-right-rear-three-quarter-2.webp"
+              },
+              {
+                "carouselImage": "/hyundai/hyundai_creta/carousel/creta-exterior-right-front-three-quarter-2.webp"
+              },
+              {
+                "carouselImage": "/hyundai/hyundai_creta/carousel/creta-exterior-rear-view.webp"
+              },
+              {
+                "carouselImage": "/hyundai/hyundai_creta/carousel/mqdefault.jpg"
+              },
+              {
+                "carouselImage": "/hyundai/hyundai_creta/carousel/creta-exterior-left-side-view-4.webp"
+              },
+              {
+                "carouselImage": "/hyundai/hyundai_creta/carousel/creta-exterior-left-side-view.webp"
               }
             ],
             "engineAndTransmission": {
@@ -1399,10 +1889,13 @@
             }
           },
           {
+            "car": "Hyundai",
+            "brandName": "Hyundai",
             "model": "Hyundai Creta",
             "modelShortName": "Creta",
+            "carDetailsHeading": "Hyundai Creta E 1.5 Diesel",
             "carVarientTypes": "Creta E 1.5 Diesel",
-            "carImage": "/maruti_suzuki/maruti_fronx.webp",
+            "carImage": "/hyundai/hyundai_creta/creta-exterior-right-front-three-quarter-4.webp",
             "version": "Sigma 1.2L MT",
             "featuredCar": true,
             "priceStart": 7.47,
@@ -1414,19 +1907,7 @@
             "seatingCapacity": "5 Seater",
             "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
             "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
-            "variants": "14",
-            "engineDetails": "1197 cc, 4 Cylinders Inline, 4 Valves/Cylinder, DOHC",
-            "engineType": "1.2L Dual Jet, Dual VVT",
-            "maxPower": "89 bhp @ 6000 rpm",
-            "maxTorque": "113 Nm @ 4400 rpm",
-            "mileageDetails": 21.79,
-            "drivingRange": 806,
-            "driveTrain": "FWD",
-            "transmissionDetails": "Manual - 5 Gears",
-            "emissionStandard": "BS6 Phase 2",
-            "charger": "X",
-            "electricMotor": "-",
-            "others": "idleStart/Stop",
+
             "allImages": [
               {
                 "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
@@ -1471,22 +1952,25 @@
             ],
             "carouselImages": [
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx.webp"
+                "carouselImage": "/hyundai/hyundai_creta/carousel/creta-exterior-right-front-three-quarter-4.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-front-view-2.webp"
+                "carouselImage": "/hyundai/hyundai_creta/carousel/creta-exterior-right-rear-three-quarter-2.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-left-rear-three-quarter-2.webp"
+                "carouselImage": "/hyundai/hyundai_creta/carousel/creta-exterior-right-front-three-quarter-2.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-rear-view-2.webp"
+                "carouselImage": "/hyundai/hyundai_creta/carousel/creta-exterior-rear-view.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-right-front-three-quarter-108.webp"
+                "carouselImage": "/hyundai/hyundai_creta/carousel/mqdefault.jpg"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/youtube-link.jpg"
+                "carouselImage": "/hyundai/hyundai_creta/carousel/creta-exterior-left-side-view-4.webp"
+              },
+              {
+                "carouselImage": "/hyundai/hyundai_creta/carousel/creta-exterior-left-side-view.webp"
               }
             ],
             "engineAndTransmission": {
@@ -1537,10 +2021,13 @@
       {
         "Toyota Rumion": [
           {
+            "car": "Toyota",
+            "brandName": "Toyota",
             "model": "Toyota Rumion",
             "modelShortName": "Rumion",
             "carVarientTypes": "Rumion S MT",
-            "carImage": "/maruti_suzuki/maruti_fronx.webp",
+            "carDetailsHeading": "Toyota Rumion",
+            "carImage": "/toyota/toyota_rumion/toyota_rumion.webp",
             "version": "Sigma 1.2L MT",
             "featuredCar": true,
             "priceStart": 8.6,
@@ -1552,19 +2039,7 @@
             "seatingCapacity": "5 Seater",
             "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
             "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
-            "variants": "14",
-            "engineDetails": "1199 cc, 3 Cylinders Inline, 2 Valves/Cylinder, SOHC",
-            "engineType": "1.2L Turbocharged Revotron Engine",
-            "maxPower": "118 bhp @ 5500 rpm",
-            "maxTorque": "170 Nm @ 1750-4000 rpm",
-            "mileageDetails": 17.44,
-            "drivingRange": 767,
-            "driveTrain": "FWD",
-            "transmissionDetails": "Manual - 5 Gears, Sport Mode",
-            "emissionStandard": "BS6 Phase 2",
-            "charger": "Turbocharged",
-            "electricMotor": "-",
-            "others": "idleStart/Stop",
+
             "allImages": [
               {
                 "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
@@ -1609,22 +2084,111 @@
             ],
             "carouselImages": [
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx.webp"
+                "carouselImage": "/toyota/toyota_rumion/carousel/rumion-exterior-right-front-three-quarter-5.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-front-view-2.webp"
+                "carouselImage": "/toyota/toyota_rumion/carousel/rumion-exterior-right-front-three-quarter-7.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-left-rear-three-quarter-2.webp"
+                "carouselImage": "/toyota/toyota_rumion/carousel/rumion-exterior-right-side-view.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-rear-view-2.webp"
+                "carouselImage": "/toyota/toyota_rumion/carousel/mqdefault.jpg"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-right-front-three-quarter-108.webp"
+                "carouselImage": "/toyota/toyota_rumion/carousel/rumion-exterior-left-front-three-quarter.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/youtube-link.jpg"
+                "carouselImage": "/toyota/toyota_rumion/carousel/rumion-exterior-left-rear-three-quarter.webp"
+              },
+              {
+                "carouselImage": "/toyota/toyota_rumion/carousel/rumion-exterior-rear-view.webp"
+              }
+            ]
+          },
+          {
+            "car": "Toyota",
+            "brandName": "Toyota",
+            "model": "Toyota Rumion",
+            "modelShortName": "Rumion",
+            "carVarientTypes": "Rumion S AT",
+            "carDetailsHeading": "Toyota Rumion Rumion 5 AT",
+            "carImage": "/toyota/toyota_rumion/toyota_rumion.webp",
+            "version": "Sigma 1.2L MT",
+            "featuredCar": true,
+            "priceStart": 7.47,
+            "priceEnd": 13.14,
+            "mileage": "20.01 to 28.51 kmpl",
+            "engine": "998 to 1197 cc",
+            "fuelType": "petrol",
+            "transmission": "Manual, Auto",
+            "seatingCapacity": "5 Seater",
+            "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
+            "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
+
+            "allImages": [
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-side-view-2.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-bootspace-rear-seat-folded.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-dashboard-2.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-dashboard-2.webp"
+              }
+            ],
+            "powerTrain": [
+              {
+                "power": "Petrol-Manual(1197cc)",
+                "mileageARAI": "21.79 kmpl",
+                "userReportedMileage": "19.74.38"
+              },
+              {
+                "power": "CNG-Manual(1197cc)",
+                "mileageARAI": "28.51 km/kg",
+                "userReportedMileage": "22.38 km/kg"
+              }
+            ],
+            "cityPrices": [
+              {
+                "city": "Delhi",
+                "price": "Rs. 8.43 Lakh onwards"
+              },
+              {
+                "city": "Chennai",
+                "price": "Rs. 8.43 Lakh onwards"
+              }
+            ],
+            "carouselImages": [
+              {
+                "carouselImage": "/toyota/toyota_rumion/carousel/rumion-exterior-right-front-three-quarter-5.webp"
+              },
+              {
+                "carouselImage": "/toyota/toyota_rumion/carousel/rumion-exterior-right-front-three-quarter-7.webp"
+              },
+              {
+                "carouselImage": "/toyota/toyota_rumion/carousel/rumion-exterior-right-side-view.webp"
+              },
+              {
+                "carouselImage": "/toyota/toyota_rumion/carousel/mqdefault.jpg"
+              },
+              {
+                "carouselImage": "/toyota/toyota_rumion/carousel/rumion-exterior-left-front-three-quarter.webp"
+              },
+              {
+                "carouselImage": "/toyota/toyota_rumion/carousel/rumion-exterior-left-rear-three-quarter.webp"
+              },
+              {
+                "carouselImage": "/toyota/toyota_rumion/carousel/rumion-exterior-rear-view.webp"
               }
             ],
             "engineAndTransmission": {
@@ -1664,10 +2228,13 @@
             }
           },
           {
+            "car": "Toyota",
+            "brandName": "Toyota",
             "model": "Toyota Rumion",
             "modelShortName": "Rumion",
-            "carVarientTypes": "Rumion S AT",
-            "carImage": "/maruti_suzuki/maruti_fronx.webp",
+            "carVarientTypes": "Rumion S AT s",
+            "carDetailsHeading": "Toyota Rumion Rumion 5 AT",
+            "carImage": "/toyota/toyota_rumion/toyota_rumion.webp",
             "version": "Sigma 1.2L MT",
             "featuredCar": true,
             "priceStart": 7.47,
@@ -1679,19 +2246,7 @@
             "seatingCapacity": "5 Seater",
             "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
             "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
-            "variants": "14",
-            "engineDetails": "1199 cc, 3 Cylinders Inline, 2 Valves/Cylinder, SOHC",
-            "engineType": "1.2L Turbocharged Revotron Engine",
-            "maxPower": "118 bhp @ 5500 rpm",
-            "maxTorque": "170 Nm @ 1750-4000 rpm",
-            "mileageDetails": 17.44,
-            "drivingRange": 766,
-            "driveTrain": "FWD",
-            "transmissionDetails": "Manual - 6 Gears, Sport Mode",
-            "emissionStandard": "BS6 Phase 2",
-            "charger": "Turbocharged",
-            "electricMotor": "-",
-            "others": "idleStart/Stop",
+
             "allImages": [
               {
                 "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
@@ -1736,22 +2291,25 @@
             ],
             "carouselImages": [
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx.webp"
+                "carouselImage": "/toyota/toyota_rumion/carousel/rumion-exterior-right-front-three-quarter-5.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-front-view-2.webp"
+                "carouselImage": "/toyota/toyota_rumion/carousel/rumion-exterior-right-front-three-quarter-7.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-left-rear-three-quarter-2.webp"
+                "carouselImage": "/toyota/toyota_rumion/carousel/rumion-exterior-right-side-view.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-rear-view-2.webp"
+                "carouselImage": "/toyota/toyota_rumion/carousel/mqdefault.jpg"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-right-front-three-quarter-108.webp"
+                "carouselImage": "/toyota/toyota_rumion/carousel/rumion-exterior-left-front-three-quarter.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/youtube-link.jpg"
+                "carouselImage": "/toyota/toyota_rumion/carousel/rumion-exterior-left-rear-three-quarter.webp"
+              },
+              {
+                "carouselImage": "/toyota/toyota_rumion/carousel/rumion-exterior-rear-view.webp"
               }
             ],
             "engineAndTransmission": {
@@ -1792,13 +2350,17 @@
           }
         ]
       },
+
       {
         "Toyota Glanza": [
           {
+            "car": "Toyota",
+            "brandName": "Toyota",
             "model": "Toyota Glanza",
             "modelShortName": "Glanza ",
             "carVarientTypes": "Glanza E",
-            "carImage": "/maruti_suzuki/maruti_fronx.webp",
+            "carDetailsHeading": "Toyota Glanza",
+            "carImage": "/toyota/toyota_glanza/toyota_glanza.webp",
             "version": "Sigma 1.2L MT",
             "featuredCar": true,
             "priceStart": 7.47,
@@ -1810,104 +2372,7 @@
             "seatingCapacity": "5 Seater",
             "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
             "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
-            "variants": "14",
-            "engineDetails": "1197 cc, 4 Cylinders Inline, 4 Valves/Cylinder, DOHC",
-            "engineType": "1.2L Dual Jet, Dual VVT",
-            "maxPower": "89 bhp @ 6000 rpm",
-            "maxTorque": "113 Nm @ 4400 rpm",
-            "mileageDetails": 21.79,
-            "drivingRange": 806,
-            "driveTrain": "FWD",
-            "transmissionDetails": "Manual - 5 Gears",
-            "emissionStandard": "BS6 Phase 2",
-            "charger": "X",
-            "electricMotor": "-",
-            "others": "idleStart/Stop",
-            "carouselImages": [
-              {
-                "carouselImage": "/maruti_suzuki/maruti_fronx.webp"
-              },
-              {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-front-view-2.webp"
-              },
-              {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-left-rear-three-quarter-2.webp"
-              },
-              {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-rear-view-2.webp"
-              },
-              {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-right-front-three-quarter-108.webp"
-              },
-              {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/youtube-link.jpg"
-              }
-            ],
-            "engineAndTransmission": {
-              "accelaration": "14.07",
-              "engine": "1199 cc, 3 Cylinders Inline, 4 Valves/Cylinder, SOHC",
-              "engineType": "1.2 Revotron",
-              "fuelType": "Petrol",
-              "maxPower": "87 bhp @ 6000 rpm",
-              "maxTorque": "115 Nm @ 3250 rpm",
-              "mileage": "20.09",
-              "drivingRange": "743",
-              "drivetrain": "FWD",
-              "transmission": "Manual - 6 Gears, Sport Mode",
-              "emissionStandard": "BS6 Phase 2",
-              "others": "Idle Start/Stop",
-              "battery": "-",
-              "alternativeFuel": "-",
-              "charger": "",
-              "electricMotor": "X"
-            },
-            "dimensionAndWeight": {
-              "length": "3827",
-              "width": "1742",
-              "height": "1615",
-              "wheelBase": "2445",
-              "groundClearance": "187"
-            },
-            "safety": {
-              "overSpeedWarning": "1 beep over 80kmph, Continuous beeps over 120kmph",
-              "airBags": "2 Airbags (Driver, Front Passenger)",
-              "rearMiddleThreePointSeatbelt": "Yes"
-            },
-            "breakAndTraction": {
-              "abs": "yes",
-              "ebd": "yes",
-              "ba": "yes"
-            }
-          },
-          {
-            "model": "Toyota Glanza",
-            "modelShortName": "Glanza",
-            "carVarientTypes": "Glanza S AMT",
-            "carImage": "/maruti_suzuki/maruti_fronx.webp",
-            "version": "Sigma 1.2L MT",
-            "featuredCar": true,
-            "priceStart": 7.47,
-            "priceEnd": 13.14,
-            "mileage": "20.01 to 28.51 kmpl",
-            "engine": "998 to 1197 cc",
-            "fuelType": "Petrol",
-            "transmission": "Manual, Auto",
-            "seatingCapacity": "5 Seater",
-            "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
-            "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
-            "variants": "14",
-            "engineDetails": "1197 cc, 4 Cylinders Inline, 4 Valves/Cylinder, DOHC",
-            "engineType": "1.2L Dual Jet, Dual VVT",
-            "maxPower": "89 bhp @ 6000 rpm",
-            "maxTorque": "113 Nm @ 4400 rpm",
-            "mileageDetails": 21.79,
-            "drivingRange": 806,
-            "driveTrain": "FWD",
-            "transmissionDetails": "Manual - 5 Gears",
-            "emissionStandard": "BS6 Phase 2",
-            "charger": "X",
-            "electricMotor": "-",
-            "others": "idleStart/Stop",
+
             "allImages": [
               {
                 "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
@@ -1952,22 +2417,232 @@
             ],
             "carouselImages": [
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx.webp"
+                "carouselImage": "/toyota/toyota_glanza/carousel/glanza-exterior-right-front-three-quarter-5.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-front-view-2.webp"
+                "carouselImage": "/toyota/toyota_glanza/carousel/glanza-exterior-right-rear-three-quarter-2.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-left-rear-three-quarter-2.webp"
+                "carouselImage": "/toyota/toyota_glanza/carousel/mqdefault.jpg"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-rear-view-2.webp"
+                "carouselImage": "/toyota/toyota_glanza/carousel/glanza-exterior-front-view.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-right-front-three-quarter-108.webp"
+                "carouselImage": "/toyota/toyota_glanza/carousel/glanza-exterior-left-rear-three-quarter.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/youtube-link.jpg"
+                "carouselImage": "/toyota/toyota_glanza/carousel/glanza-exterior-rear-view.webp"
+              },
+              {
+                "carouselImage": "/toyota/toyota_glanza/carousel/glanza-exterior-right-front-three-quarter-2.webp"
+              }
+            ]
+          },
+          {
+            "car": "Toyota",
+            "brandName": "Toyota",
+            "model": "Toyota Glanza",
+            "modelShortName": "Glanza ",
+            "carVarientTypes": "Glanza E",
+            "carDetailsHeading": "Toyota Glanza E",
+            "carImage": "/toyota/toyota_glanza/toyota_glanza.webp",
+            "version": "Sigma 1.2L MT",
+            "featuredCar": true,
+            "priceStart": 7.47,
+            "priceEnd": 13.14,
+            "mileage": "20.01 to 28.51 kmpl",
+            "engine": "998 to 1197 cc",
+            "fuelType": "Automic",
+            "transmission": "Manual, Auto",
+            "seatingCapacity": "5 Seater",
+            "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
+            "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
+
+            "allImages": [
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-side-view-2.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-bootspace-rear-seat-folded.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-dashboard-2.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-dashboard-2.webp"
+              }
+            ],
+            "powerTrain": [
+              {
+                "power": "Petrol-Manual(1197cc)",
+                "mileageARAI": "21.79 kmpl",
+                "userReportedMileage": "19.74.38"
+              },
+              {
+                "power": "CNG-Manual(1197cc)",
+                "mileageARAI": "28.51 km/kg",
+                "userReportedMileage": "22.38 km/kg"
+              }
+            ],
+            "cityPrices": [
+              {
+                "city": "Delhi",
+                "price": "Rs. 8.43 Lakh onwards"
+              },
+              {
+                "city": "Chennai",
+                "price": "Rs. 8.43 Lakh onwards"
+              }
+            ],
+            "carouselImages": [
+              {
+                "carouselImage": "/toyota/toyota_glanza/carousel/glanza-exterior-right-front-three-quarter-5.webp"
+              },
+              {
+                "carouselImage": "/toyota/toyota_glanza/carousel/glanza-exterior-right-rear-three-quarter-2.webp"
+              },
+              {
+                "carouselImage": "/toyota/toyota_glanza/carousel/mqdefault.jpg"
+              },
+              {
+                "carouselImage": "/toyota/toyota_glanza/carousel/glanza-exterior-front-view.webp"
+              },
+              {
+                "carouselImage": "/toyota/toyota_glanza/carousel/glanza-exterior-left-rear-three-quarter.webp"
+              },
+              {
+                "carouselImage": "/toyota/toyota_glanza/carousel/glanza-exterior-rear-view.webp"
+              },
+              {
+                "carouselImage": "/toyota/toyota_glanza/carousel/glanza-exterior-right-front-three-quarter-2.webp"
+              }
+            ],
+            "engineAndTransmission": {
+              "accelaration": "14.07",
+              "engine": "1199 cc, 3 Cylinders Inline, 4 Valves/Cylinder, SOHC",
+              "engineType": "1.2 Revotron",
+              "fuelType": "Petrol",
+              "maxPower": "87 bhp @ 6000 rpm",
+              "maxTorque": "115 Nm @ 3250 rpm",
+              "mileage": "20.09",
+              "drivingRange": "743",
+              "drivetrain": "FWD",
+              "transmission": "Manual - 6 Gears, Sport Mode",
+              "emissionStandard": "BS6 Phase 2",
+              "others": "Idle Start/Stop",
+              "battery": "-",
+              "alternativeFuel": "-",
+              "charger": "",
+              "electricMotor": "X"
+            },
+            "dimensionAndWeight": {
+              "length": "3827",
+              "width": "1742",
+              "height": "1615",
+              "wheelBase": "2445",
+              "groundClearance": "187"
+            },
+            "safety": {
+              "overSpeedWarning": "1 beep over 80kmph, Continuous beeps over 120kmph",
+              "airBags": "2 Airbags (Driver, Front Passenger)",
+              "rearMiddleThreePointSeatbelt": "Yes"
+            },
+            "breakAndTraction": {
+              "abs": "yes",
+              "ebd": "yes",
+              "ba": "yes"
+            }
+          },
+          {
+            "car": "Toyota",
+            "brandName": "Toyota",
+            "model": "Toyota Glanza",
+            "modelShortName": "Glanza",
+            "carVarientTypes": "Glanza S AMT",
+            "carDetailsHeading": "Toyota Glanza S AMT",
+            "carImage": "/toyota/toyota_glanza/toyota_glanza.webp",
+            "version": "Sigma 1.2L MT",
+            "featuredCar": true,
+            "priceStart": 7.47,
+            "priceEnd": 13.14,
+            "mileage": "20.01 to 28.51 kmpl",
+            "engine": "998 to 1197 cc",
+            "fuelType": "Petrol",
+            "transmission": "Manual, Auto",
+            "seatingCapacity": "5 Seater",
+            "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
+            "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
+
+            "allImages": [
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-side-view-2.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-bootspace-rear-seat-folded.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-dashboard-2.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-dashboard-2.webp"
+              }
+            ],
+            "powerTrain": [
+              {
+                "power": "Petrol-Manual(1197cc)",
+                "mileageARAI": "21.79 kmpl",
+                "userReportedMileage": "19.74.38"
+              },
+              {
+                "power": "CNG-Manual(1197cc)",
+                "mileageARAI": "28.51 km/kg",
+                "userReportedMileage": "22.38 km/kg"
+              }
+            ],
+            "cityPrices": [
+              {
+                "city": "Delhi",
+                "price": "Rs. 8.43 Lakh onwards"
+              },
+              {
+                "city": "Chennai",
+                "price": "Rs. 8.43 Lakh onwards"
+              }
+            ],
+            "carouselImages": [
+              {
+                "carouselImage": "/toyota/toyota_glanza/carousel/glanza-exterior-right-front-three-quarter-5.webp"
+              },
+              {
+                "carouselImage": "/toyota/toyota_glanza/carousel/glanza-exterior-right-rear-three-quarter-2.webp"
+              },
+              {
+                "carouselImage": "/toyota/toyota_glanza/carousel/mqdefault.jpg"
+              },
+              {
+                "carouselImage": "/toyota/toyota_glanza/carousel/glanza-exterior-front-view.webp"
+              },
+              {
+                "carouselImage": "/toyota/toyota_glanza/carousel/glanza-exterior-left-rear-three-quarter.webp"
+              },
+              {
+                "carouselImage": "/toyota/toyota_glanza/carousel/glanza-exterior-rear-view.webp"
+              },
+              {
+                "carouselImage": "/toyota/toyota_glanza/carousel/glanza-exterior-right-front-three-quarter-2.webp"
               }
             ],
             "engineAndTransmission": {
@@ -2018,10 +2693,13 @@
       {
         "Mahindra Thar": [
           {
+            "car": "Mahindra",
+            "brandName": "Mahindra",
             "model": "Mahindra Thar",
             "modelShortName": "Thar",
+            "carDetailsHeading": "Mahindra Thar",
             "carVarientTypes": "Thar AX (O) Hard Top Diesel MT RWD",
-            "carImage": "/maruti_suzuki/maruti_fronx.webp",
+            "carImage": "/mahindra/mahindra_thar/mahindra_thar.webp",
             "version": "Sigma 1.2L MT",
             "featuredCar": true,
             "priceStart": 8.6,
@@ -2033,19 +2711,7 @@
             "seatingCapacity": "5 Seater",
             "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
             "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
-            "variants": "14",
-            "engineDetails": "1199 cc, 3 Cylinders Inline, 2 Valves/Cylinder, SOHC",
-            "engineType": "1.2L Turbocharged Revotron Engine",
-            "maxPower": "118 bhp @ 5500 rpm",
-            "maxTorque": "170 Nm @ 1750-4000 rpm",
-            "mileageDetails": 17.44,
-            "drivingRange": 767,
-            "driveTrain": "FWD",
-            "transmissionDetails": "Manual - 5 Gears, Sport Mode",
-            "emissionStandard": "BS6 Phase 2",
-            "charger": "Turbocharged",
-            "electricMotor": "-",
-            "others": "idleStart/Stop",
+
             "allImages": [
               {
                 "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
@@ -2090,22 +2756,111 @@
             ],
             "carouselImages": [
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx.webp"
+                "carouselImage": "/mahindra/mahindra_thar/carousel/thar-exterior-right-front-three-quarter-35.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-front-view-2.webp"
+                "carouselImage": "/mahindra/mahindra_thar/carousel/thar-exterior-right-rear-three-quarter.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-left-rear-three-quarter-2.webp"
+                "carouselImage": "/mahindra/mahindra_thar/carousel/mqdefault.jpg"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-rear-view-2.webp"
+                "carouselImage": "/mahindra/mahindra_thar/carousel/thar-exterior-front-view.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-right-front-three-quarter-108.webp"
+                "carouselImage": "/mahindra/mahindra_thar/carousel/thar-exterior-left-rear-three-quarter.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/youtube-link.jpg"
+                "carouselImage": "/mahindra/mahindra_thar/carousel/thar-exterior-rear-view.webp"
+              },
+              {
+                "carouselImage": "/mahindra/mahindra_thar/carousel/thar-exterior-right-front-three-quarter-32.webp"
+              }
+            ]
+          },
+          {
+            "car": "Mahindra",
+            "brandName": "Mahindra",
+            "model": "Mahindra Thar",
+            "modelShortName": "Thar",
+            "carDetailsHeading": "Thar AX (O) Hard Top Diesel MT RWD",
+            "carVarientTypes": "Thar AX (O) Hard Top Diesel MT RWD",
+            "carImage": "/mahindra/mahindra_thar/mahindra_thar.webp",
+            "version": "Sigma 1.2L MT",
+            "featuredCar": true,
+            "priceStart": 8.6,
+            "priceEnd": 14.2,
+            "mileage": "20.01 to 28.51 kmpl",
+            "engine": "998 to 1197 cc",
+            "fuelType": "Petrol",
+            "transmission": "Manual, Auto",
+            "seatingCapacity": "5 Seater",
+            "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
+            "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
+
+            "allImages": [
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-side-view-2.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-bootspace-rear-seat-folded.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-dashboard-2.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-dashboard-2.webp"
+              }
+            ],
+            "powerTrain": [
+              {
+                "power": "Petrol-Manual(1197cc)",
+                "mileageARAI": "21.79 kmpl",
+                "userReportedMileage": "19.74.38"
+              },
+              {
+                "power": "CNG-Manual(1197cc)",
+                "mileageARAI": "28.51 km/kg",
+                "userReportedMileage": "22.38 km/kg"
+              }
+            ],
+            "cityPrices": [
+              {
+                "city": "Delhi",
+                "price": "Rs. 8.43 Lakh onwards"
+              },
+              {
+                "city": "Chennai",
+                "price": "Rs. 8.43 Lakh onwards"
+              }
+            ],
+            "carouselImages": [
+              {
+                "carouselImage": "/mahindra/mahindra_thar/carousel/thar-exterior-right-front-three-quarter-35.webp"
+              },
+              {
+                "carouselImage": "/mahindra/mahindra_thar/carousel/thar-exterior-right-rear-three-quarter.webp"
+              },
+              {
+                "carouselImage": "/mahindra/mahindra_thar/carousel/mqdefault.jpg"
+              },
+              {
+                "carouselImage": "/mahindra/mahindra_thar/carousel/thar-exterior-front-view.webp"
+              },
+              {
+                "carouselImage": "/mahindra/mahindra_thar/carousel/thar-exterior-left-rear-three-quarter.webp"
+              },
+              {
+                "carouselImage": "/mahindra/mahindra_thar/carousel/thar-exterior-rear-view.webp"
+              },
+              {
+                "carouselImage": "/mahindra/mahindra_thar/carousel/thar-exterior-right-front-three-quarter-32.webp"
               }
             ],
             "engineAndTransmission": {
@@ -2145,10 +2900,13 @@
             }
           },
           {
+            "car": "Mahindra",
+            "brandName": "Mahindra",
             "model": "Mahindra Thar",
             "modelShortName": "Thar",
+            "carDetailsHeading": "LX Hard Top Petrol AT RWD",
             "carVarientTypes": "LX Hard Top Petrol AT RWD",
-            "carImage": "/maruti_suzuki/maruti_fronx.webp",
+            "carImage": "/mahindra/mahindra_thar/mahindra_thar.webp",
             "version": "Sigma 1.2L MT",
             "featuredCar": true,
             "priceStart": 7.47,
@@ -2160,19 +2918,7 @@
             "seatingCapacity": "5 Seater",
             "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
             "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
-            "variants": "14",
-            "engineDetails": "1199 cc, 3 Cylinders Inline, 2 Valves/Cylinder, SOHC",
-            "engineType": "1.2L Turbocharged Revotron Engine",
-            "maxPower": "118 bhp @ 5500 rpm",
-            "maxTorque": "170 Nm @ 1750-4000 rpm",
-            "mileageDetails": 17.44,
-            "drivingRange": 766,
-            "driveTrain": "FWD",
-            "transmissionDetails": "Manual - 6 Gears, Sport Mode",
-            "emissionStandard": "BS6 Phase 2",
-            "charger": "Turbocharged",
-            "electricMotor": "-",
-            "others": "idleStart/Stop",
+
             "allImages": [
               {
                 "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
@@ -2217,22 +2963,25 @@
             ],
             "carouselImages": [
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx.webp"
+                "carouselImage": "/mahindra/mahindra_thar/carousel/thar-exterior-right-front-three-quarter-35.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-front-view-2.webp"
+                "carouselImage": "/mahindra/mahindra_thar/carousel/thar-exterior-right-rear-three-quarter.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-left-rear-three-quarter-2.webp"
+                "carouselImage": "/mahindra/mahindra_thar/carousel/mqdefault.jpg"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-rear-view-2.webp"
+                "carouselImage": "/mahindra/mahindra_thar/carousel/thar-exterior-front-view.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-right-front-three-quarter-108.webp"
+                "carouselImage": "/mahindra/mahindra_thar/carousel/thar-exterior-left-rear-three-quarter.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/youtube-link.jpg"
+                "carouselImage": "/mahindra/mahindra_thar/carousel/thar-exterior-rear-view.webp"
+              },
+              {
+                "carouselImage": "/mahindra/mahindra_thar/carousel/thar-exterior-right-front-three-quarter-32.webp"
               }
             ],
             "engineAndTransmission": {
@@ -2276,10 +3025,13 @@
       {
         "Mahindra Scorpio": [
           {
+            "car": "Mahindra",
+            "brandName": "Mahindra",
             "model": "Mahindra Scorpio",
+            "carDetailsHeading": "Mahindra Scorpio",
             "modelShortName": "Scorpio",
             "carVarientTypes": "Scorpio S MT 7STR",
-            "carImage": "/maruti_suzuki/maruti_fronx.webp",
+            "carImage": "/mahindra/mahindra_scorpio/mahindra_scorpio.webp",
             "version": "Sigma 1.2L MT",
             "featuredCar": true,
             "priceStart": 7.47,
@@ -2291,19 +3043,7 @@
             "seatingCapacity": "5 Seater",
             "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
             "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
-            "variants": "14",
-            "engineDetails": "1197 cc, 4 Cylinders Inline, 4 Valves/Cylinder, DOHC",
-            "engineType": "1.2L Dual Jet, Dual VVT",
-            "maxPower": "89 bhp @ 6000 rpm",
-            "maxTorque": "113 Nm @ 4400 rpm",
-            "mileageDetails": 21.79,
-            "drivingRange": 806,
-            "driveTrain": "FWD",
-            "transmissionDetails": "Manual - 5 Gears",
-            "emissionStandard": "BS6 Phase 2",
-            "charger": "X",
-            "electricMotor": "-",
-            "others": "idleStart/Stop",
+
             "allImages": [
               {
                 "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
@@ -2348,65 +3088,117 @@
             ],
             "carouselImages": [
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx.webp"
+                "carouselImage": "/mahindra/mahindra_scorpio/carousel/scorpio-exterior-right-front-three-quarter-47.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-front-view-2.webp"
+                "carouselImage": "/mahindra/mahindra_scorpio/carousel/scorpio-classic-exterior-right-side-view.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-left-rear-three-quarter-2.webp"
+                "carouselImage": "/mahindra/mahindra_scorpio/carousel/scorpio-classic-exterior-right-rear-three-quarter.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-rear-view-2.webp"
+                "carouselImage": "/mahindra/mahindra_scorpio/carousel/scorpio-classic-exterior-right-front-three-quarter-45.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-right-front-three-quarter-108.webp"
+                "carouselImage": "/mahindra/mahindra_scorpio/carousel/scorpio-classic-exterior-left-rear-three-quarter.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/youtube-link.jpg"
+                "carouselImage": "/mahindra/mahindra_scorpio/carousel/mqdefault.jpg"
               }
-            ],
-            "engineAndTransmission": {
-              "accelaration": "14.07",
-              "engine": "1199 cc, 3 Cylinders Inline, 4 Valves/Cylinder, SOHC",
-              "engineType": "1.2 Revotron",
-              "fuelType": "Petrol",
-              "maxPower": "87 bhp @ 6000 rpm",
-              "maxTorque": "115 Nm @ 3250 rpm",
-              "mileage": "20.09",
-              "drivingRange": "743",
-              "drivetrain": "FWD",
-              "transmission": "Manual - 6 Gears, Sport Mode",
-              "emissionStandard": "BS6 Phase 2",
-              "others": "Idle Start/Stop",
-              "battery": "-",
-              "alternativeFuel": "-",
-              "charger": "",
-              "electricMotor": "X"
-            },
-            "dimensionAndWeight": {
-              "length": "3827",
-              "width": "1742",
-              "height": "1615",
-              "wheelBase": "2445",
-              "groundClearance": "187"
-            },
-            "safety": {
-              "overSpeedWarning": "1 beep over 80kmph, Continuous beeps over 120kmph",
-              "airBags": "2 Airbags (Driver, Front Passenger)",
-              "rearMiddleThreePointSeatbelt": "Yes"
-            },
-            "breakAndTraction": {
-              "abs": "yes",
-              "ebd": "yes",
-              "ba": "yes"
-            }
+            ]
           },
+
           {
+            "car": "Mahindra",
+            "brandName": "Mahindra",
             "model": "Mahindra Scorpio",
             "modelShortName": "Scorpio",
+            "carDetailsHeading": "Mahindra Scorpio S MT 7STR",
+            "carVarientTypes": "Scorpio S MT 7STR",
+            "carImage": "/mahindra/mahindra_scorpio/mahindra_scorpio.webp",
+            "version": "Sigma 1.2L MT",
+            "featuredCar": true,
+            "priceStart": 7.47,
+            "priceEnd": 13.14,
+            "mileage": "20.01 to 28.51 kmpl",
+            "engine": "998 to 1197 cc",
+            "fuelType": "Automic",
+            "transmission": "Manual, Auto",
+            "seatingCapacity": "5 Seater",
+            "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
+            "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
+
+            "allImages": [
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-side-view-2.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-bootspace-rear-seat-folded.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-dashboard-2.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-dashboard-2.webp"
+              }
+            ],
+            "powerTrain": [
+              {
+                "power": "Petrol-Manual(1197cc)",
+                "mileageARAI": "21.79 kmpl",
+                "userReportedMileage": "19.74.38"
+              },
+              {
+                "power": "CNG-Manual(1197cc)",
+                "mileageARAI": "28.51 km/kg",
+                "userReportedMileage": "22.38 km/kg"
+              }
+            ],
+            "cityPrices": [
+              {
+                "city": "Delhi",
+                "price": "Rs. 8.43 Lakh onwards"
+              },
+              {
+                "city": "Chennai",
+                "price": "Rs. 8.43 Lakh onwards"
+              }
+            ],
+            "carouselImages": [
+              {
+                "carouselImage": "/mahindra/mahindra_scorpio/carousel/scorpio-exterior-right-front-three-quarter-47.webp"
+              },
+              {
+                "carouselImage": "/mahindra/mahindra_scorpio/carousel/scorpio-classic-exterior-right-side-view.webp"
+              },
+              {
+                "carouselImage": "/mahindra/mahindra_scorpio/carousel/scorpio-classic-exterior-right-rear-three-quarter.webp"
+              },
+              {
+                "carouselImage": "/mahindra/mahindra_scorpio/carousel/scorpio-classic-exterior-right-front-three-quarter-45.webp"
+              },
+              {
+                "carouselImage": "/mahindra/mahindra_scorpio/carousel/scorpio-classic-exterior-left-rear-three-quarter.webp"
+              },
+              {
+                "carouselImage": "/mahindra/mahindra_scorpio/carousel/mqdefault.jpg"
+              }
+            ]
+          },
+          {
+            "car": "Mahindra",
+            "brandName": "Mahindra",
+            "model": "Mahindra Scorpio",
+            "modelShortName": "Scorpio",
+            "carDetailsHeading": "Mahindra Scorpio S11 MT 7S CC",
             "carVarientTypes": "Scorpio S11 MT 7S CC",
-            "carImage": "/maruti_suzuki/maruti_fronx.webp",
+            "carImage": "/mahindra/mahindra_scorpio/mahindra_scorpio.webp",
             "version": "Sigma 1.2L MT",
             "featuredCar": true,
             "priceStart": 7.47,
@@ -2418,19 +3210,7 @@
             "seatingCapacity": "5 Seater",
             "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
             "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
-            "variants": "14",
-            "engineDetails": "1197 cc, 4 Cylinders Inline, 4 Valves/Cylinder, DOHC",
-            "engineType": "1.2L Dual Jet, Dual VVT",
-            "maxPower": "89 bhp @ 6000 rpm",
-            "maxTorque": "113 Nm @ 4400 rpm",
-            "mileageDetails": 21.79,
-            "drivingRange": 806,
-            "driveTrain": "FWD",
-            "transmissionDetails": "Manual - 5 Gears",
-            "emissionStandard": "BS6 Phase 2",
-            "charger": "X",
-            "electricMotor": "-",
-            "others": "idleStart/Stop",
+
             "allImages": [
               {
                 "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
@@ -2475,22 +3255,22 @@
             ],
             "carouselImages": [
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx.webp"
+                "carouselImage": "/mahindra/mahindra_scorpio/carousel/scorpio-exterior-right-front-three-quarter-47.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-front-view-2.webp"
+                "carouselImage": "/mahindra/mahindra_scorpio/carousel/scorpio-classic-exterior-right-side-view.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-left-rear-three-quarter-2.webp"
+                "carouselImage": "/mahindra/mahindra_scorpio/carousel/scorpio-classic-exterior-right-rear-three-quarter.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-rear-view-2.webp"
+                "carouselImage": "/mahindra/mahindra_scorpio/carousel/scorpio-classic-exterior-right-front-three-quarter-45.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-right-front-three-quarter-108.webp"
+                "carouselImage": "/mahindra/mahindra_scorpio/carousel/scorpio-classic-exterior-left-rear-three-quarter.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/youtube-link.jpg"
+                "carouselImage": "/mahindra/mahindra_scorpio/carousel/mqdefault.jpg"
               }
             ],
             "engineAndTransmission": {
@@ -2541,10 +3321,13 @@
       {
         "BMW X1": [
           {
-            "model": "BMW X2",
-            "modelShortName": "X!",
+            "car": "BMW",
+            "brandName": "BMW",
+            "carDetailsHeading": "BMW",
+            "model": "BMW X1",
+            "modelShortName": "X1",
             "carVarientTypes": "sDrive18i M Sport",
-            "carImage": "/maruti_suzuki/maruti_fronx.webp",
+            "carImage": "/bmw/bmw_x1/bmw_x1.webp",
             "version": "Sigma 1.2L MT",
             "featuredCar": true,
             "priceStart": 8.6,
@@ -2556,19 +3339,7 @@
             "seatingCapacity": "5 Seater",
             "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
             "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
-            "variants": "14",
-            "engineDetails": "1199 cc, 3 Cylinders Inline, 2 Valves/Cylinder, SOHC",
-            "engineType": "1.2L Turbocharged Revotron Engine",
-            "maxPower": "118 bhp @ 5500 rpm",
-            "maxTorque": "170 Nm @ 1750-4000 rpm",
-            "mileageDetails": 17.44,
-            "drivingRange": 767,
-            "driveTrain": "FWD",
-            "transmissionDetails": "Manual - 5 Gears, Sport Mode",
-            "emissionStandard": "BS6 Phase 2",
-            "charger": "Turbocharged",
-            "electricMotor": "-",
-            "others": "idleStart/Stop",
+
             "allImages": [
               {
                 "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
@@ -2613,22 +3384,111 @@
             ],
             "carouselImages": [
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx.webp"
+                "carouselImage": "/bmw/bmw_x1/carousel/x1-exterior-right-front-three-quarter-7.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-front-view-2.webp"
+                "carouselImage": "/bmw/bmw_x1/carousel/bmw-x1-right-front-three-quarter0.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-left-rear-three-quarter-2.webp"
+                "carouselImage": "/bmw/bmw_x1/carousel/mqdefault.jpg"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-rear-view-2.webp"
+                "carouselImage": "/bmw/bmw_x1/carousel/x1-exterior-front-view-2.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-right-front-three-quarter-108.webp"
+                "carouselImage": "/bmw/bmw_x1/carousel/x1-exterior-left-front-three-quarter-2.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/youtube-link.jpg"
+                "carouselImage": "/bmw/bmw_x1/carousel/x1-exterior-rear-view-2.webp"
+              },
+              {
+                "carouselImage": "/bmw/bmw_x1/carousel/x1-exterior-right-side-view-2.webp"
+              }
+            ]
+          },
+          {
+            "car": "BMW",
+            "brandName": "BMW",
+            "model": "BMW X2",
+            "modelShortName": "X2",
+            "carDetailsHeading": "BMW X2 sDrive18i M Sport",
+            "carVarientTypes": "sDrive18i M Sport",
+            "carImage": "/bmw/bmw_x1/bmw_x1.webp",
+            "version": "Sigma 1.2L MT",
+            "featuredCar": true,
+            "priceStart": 8.6,
+            "priceEnd": 14.2,
+            "mileage": "20.01 to 28.51 kmpl",
+            "engine": "998 to 1197 cc",
+            "fuelType": "Petrol",
+            "transmission": "Manual, Auto",
+            "seatingCapacity": "5 Seater",
+            "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
+            "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
+
+            "allImages": [
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-side-view-2.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-bootspace-rear-seat-folded.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-dashboard-2.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-dashboard-2.webp"
+              }
+            ],
+            "powerTrain": [
+              {
+                "power": "Petrol-Manual(1197cc)",
+                "mileageARAI": "21.79 kmpl",
+                "userReportedMileage": "19.74.38"
+              },
+              {
+                "power": "CNG-Manual(1197cc)",
+                "mileageARAI": "28.51 km/kg",
+                "userReportedMileage": "22.38 km/kg"
+              }
+            ],
+            "cityPrices": [
+              {
+                "city": "Delhi",
+                "price": "Rs. 8.43 Lakh onwards"
+              },
+              {
+                "city": "Chennai",
+                "price": "Rs. 8.43 Lakh onwards"
+              }
+            ],
+            "carouselImages": [
+              {
+                "carouselImage": "/bmw/bmw_x1/carousel/x1-exterior-right-front-three-quarter-7.webp"
+              },
+              {
+                "carouselImage": "/bmw/bmw_x1/carousel/bmw-x1-right-front-three-quarter0.webp"
+              },
+              {
+                "carouselImage": "/bmw/bmw_x1/carousel/mqdefault.jpg"
+              },
+              {
+                "carouselImage": "/bmw/bmw_x1/carousel/x1-exterior-front-view-2.webp"
+              },
+              {
+                "carouselImage": "/bmw/bmw_x1/carousel/x1-exterior-left-front-three-quarter-2.webp"
+              },
+              {
+                "carouselImage": "/bmw/bmw_x1/carousel/x1-exterior-rear-view-2.webp"
+              },
+              {
+                "carouselImage": "/bmw/bmw_x1/carousel/x1-exterior-right-side-view-2.webp"
               }
             ],
             "engineAndTransmission": {
@@ -2668,10 +3528,13 @@
             }
           },
           {
+            "car": "BMW",
+            "brandName": "BMW",
             "model": "BMW X1",
             "modelShortName": "X1",
+            "carDetailsHeading": "BMW X1 sDrive18d M Sport",
             "carVarientTypes": "sDrive18d M Sport",
-            "carImage": "/maruti_suzuki/maruti_fronx.webp",
+            "carImage": "/bmw/bmw_x1/bmw_x1.webp",
             "version": "Sigma 1.2L MT",
             "featuredCar": true,
             "priceStart": 7.47,
@@ -2740,22 +3603,25 @@
             ],
             "carouselImages": [
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx.webp"
+                "carouselImage": "/bmw/bmw_x1/carousel/x1-exterior-right-front-three-quarter-7.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-front-view-2.webp"
+                "carouselImage": "/bmw/bmw_x1/carousel/bmw-x1-right-front-three-quarter0.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-left-rear-three-quarter-2.webp"
+                "carouselImage": "/bmw/bmw_x1/carousel/mqdefault.jpg"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-rear-view-2.webp"
+                "carouselImage": "/bmw/bmw_x1/carousel/x1-exterior-front-view-2.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-right-front-three-quarter-108.webp"
+                "carouselImage": "/bmw/bmw_x1/carousel/x1-exterior-left-front-three-quarter-2.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/youtube-link.jpg"
+                "carouselImage": "/bmw/bmw_x1/carousel/x1-exterior-rear-view-2.webp"
+              },
+              {
+                "carouselImage": "/bmw/bmw_x1/carousel/x1-exterior-right-side-view-2.webp"
               }
             ],
             "engineAndTransmission": {
@@ -2799,10 +3665,13 @@
       {
         "BMW X7": [
           {
+            "car": "BMW",
+            "brandName": "BMW",
             "model": "BMW X7",
             "modelShortName": "X7",
-            "carVarientTypes": "xDrive40i M Sport",
-            "carImage": "/maruti_suzuki/maruti_fronx.webp",
+            "carVarientTypes": "BMW X7 xDrive40i M Sport",
+            "carDetailsHeading": "BMW X7",
+            "carImage": "/bmw/bmw_x7/bmw_x7.webp",
             "version": "Sigma 1.2L MT",
             "featuredCar": true,
             "priceStart": 7.47,
@@ -2814,37 +3683,143 @@
             "seatingCapacity": "5 Seater",
             "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
             "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
-            "variants": "14",
-            "engineDetails": "1197 cc, 4 Cylinders Inline, 4 Valves/Cylinder, DOHC",
-            "engineType": "1.2L Dual Jet, Dual VVT",
-            "maxPower": "89 bhp @ 6000 rpm",
-            "maxTorque": "113 Nm @ 4400 rpm",
-            "mileageDetails": 21.79,
-            "drivingRange": 806,
-            "driveTrain": "FWD",
-            "transmissionDetails": "Manual - 5 Gears",
-            "emissionStandard": "BS6 Phase 2",
-            "charger": "X",
-            "electricMotor": "-",
-            "others": "idleStart/Stop",
+            "allImages": [
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-side-view-2.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-bootspace-rear-seat-folded.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-dashboard-2.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-dashboard-2.webp"
+              }
+            ],
+            "powerTrain": [
+              {
+                "power": "Petrol-Manual(1197cc)",
+                "mileageARAI": "21.79 kmpl",
+                "userReportedMileage": "19.74.38"
+              },
+              {
+                "power": "CNG-Manual(1197cc)",
+                "mileageARAI": "28.51 km/kg",
+                "userReportedMileage": "22.38 km/kg"
+              }
+            ],
+            "cityPrices": [
+              {
+                "city": "Delhi",
+                "price": "Rs. 8.43 Lakh onwards"
+              },
+              {
+                "city": "Chennai",
+                "price": "Rs. 8.43 Lakh onwards"
+              }
+            ],
+
             "carouselImages": [
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx.webp"
+                "carouselImage": "/bmw/bmw_x7/carousel/x7-exterior-right-front-three-quarter-8.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-front-view-2.webp"
+                "carouselImage": "/bmw/bmw_x7/carousel/x7-exterior-right-front-three-quarter-9.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-left-rear-three-quarter-2.webp"
+                "carouselImage": "/bmw/bmw_x7/carousel/x7-exterior-left-front-three-quarter.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-rear-view-2.webp"
+                "carouselImage": "/bmw/bmw_x7/carousel/x7-exterior-rear-view-2.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-right-front-three-quarter-108.webp"
+                "carouselImage": "/bmw/bmw_x7/carousel/x7-exterior-right-front-three-quarter-7.webp"
+              }
+            ]
+          },
+          {
+            "car": "BMW",
+            "brandName": "BMW",
+            "model": "BMW X7",
+            "modelShortName": "X7",
+            "carVarientTypes": "xDrive40i M Sport",
+            "carDetailsHeading": "BMW X7 xDrive40i M Sport",
+            "carImage": "/bmw/bmw_x7/bmw_x7.webp",
+            "version": "Sigma 1.2L MT",
+            "featuredCar": true,
+            "priceStart": 7.47,
+            "priceEnd": 13.14,
+            "mileage": "20.01 to 28.51 kmpl",
+            "engine": "998 to 1197 cc",
+            "fuelType": "Automic",
+            "transmission": "Manual, Auto",
+            "seatingCapacity": "5 Seater",
+            "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
+            "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
+            "allImages": [
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/youtube-link.jpg"
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-side-view-2.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-bootspace-rear-seat-folded.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-dashboard-2.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-dashboard-2.webp"
+              }
+            ],
+            "powerTrain": [
+              {
+                "power": "Petrol-Manual(1197cc)",
+                "mileageARAI": "21.79 kmpl",
+                "userReportedMileage": "19.74.38"
+              },
+              {
+                "power": "CNG-Manual(1197cc)",
+                "mileageARAI": "28.51 km/kg",
+                "userReportedMileage": "22.38 km/kg"
+              }
+            ],
+            "cityPrices": [
+              {
+                "city": "Delhi",
+                "price": "Rs. 8.43 Lakh onwards"
+              },
+              {
+                "city": "Chennai",
+                "price": "Rs. 8.43 Lakh onwards"
+              }
+            ],
+            "carouselImages": [
+              {
+                "carouselImage": "/bmw/bmw_x7/carousel/x7-exterior-right-front-three-quarter-8.webp"
+              },
+              {
+                "carouselImage": "/bmw/bmw_x7/carousel/x7-exterior-right-front-three-quarter-9.webp"
+              },
+              {
+                "carouselImage": "/bmw/bmw_x7/carousel/x7-exterior-left-front-three-quarter.webp"
+              },
+              {
+                "carouselImage": "/bmw/bmw_x7/carousel/x7-exterior-rear-view-2.webp"
+              },
+              {
+                "carouselImage": "/bmw/bmw_x7/carousel/x7-exterior-right-front-three-quarter-7.webp"
               }
             ],
             "engineAndTransmission": {
@@ -2884,10 +3859,13 @@
             }
           },
           {
+            "car": "BMW",
             "model": "BMW X7",
+            "brandName": "BMW",
             "modelShortName": "X7",
             "carVarientTypes": "xDrive40d M Sport",
-            "carImage": "/maruti_suzuki/maruti_fronx.webp",
+            "carDetailsHeading": "BMW X7 xDrive40d M Sport",
+            "carImage": "/bmw/bmw_x7/bmw_x7.webp",
             "version": "Sigma 1.2L MT",
             "featuredCar": true,
             "priceStart": 7.47,
@@ -2899,37 +3877,64 @@
             "seatingCapacity": "5 Seater",
             "adOne": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad1.jpg",
             "adTwo": "/maruti_suzuki/maruti_fronx/maruti_fronx_ad2.jpg",
-            "variants": "14",
-            "engineDetails": "1197 cc, 4 Cylinders Inline, 4 Valves/Cylinder, DOHC",
-            "engineType": "1.2L Dual Jet, Dual VVT",
-            "maxPower": "89 bhp @ 6000 rpm",
-            "maxTorque": "113 Nm @ 4400 rpm",
-            "mileageDetails": 21.79,
-            "drivingRange": 806,
-            "driveTrain": "FWD",
-            "transmissionDetails": "Manual - 5 Gears",
-            "emissionStandard": "BS6 Phase 2",
-            "charger": "X",
-            "electricMotor": "-",
-            "others": "idleStart/Stop",
+            "allImages": [
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-front-three-quarter-108.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-exterior-right-side-view-2.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-bootspace-rear-seat-folded.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-dashboard-2.webp"
+              },
+              {
+                "imag": "/maruti_suzuki/maruti_fronx/all_images/fronx-interior-dashboard-2.webp"
+              }
+            ],
+            "powerTrain": [
+              {
+                "power": "Petrol-Manual(1197cc)",
+                "mileageARAI": "21.79 kmpl",
+                "userReportedMileage": "19.74.38"
+              },
+              {
+                "power": "CNG-Manual(1197cc)",
+                "mileageARAI": "28.51 km/kg",
+                "userReportedMileage": "22.38 km/kg"
+              }
+            ],
+            "cityPrices": [
+              {
+                "city": "Delhi",
+                "price": "Rs. 8.43 Lakh onwards"
+              },
+              {
+                "city": "Chennai",
+                "price": "Rs. 8.43 Lakh onwards"
+              }
+            ],
+
             "carouselImages": [
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx.webp"
+                "carouselImage": "/bmw/bmw_x7/carousel/x7-exterior-right-front-three-quarter-8.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-front-view-2.webp"
+                "carouselImage": "/bmw/bmw_x7/carousel/x7-exterior-right-front-three-quarter-9.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-left-rear-three-quarter-2.webp"
+                "carouselImage": "/bmw/bmw_x7/carousel/x7-exterior-left-front-three-quarter.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-rear-view-2.webp"
+                "carouselImage": "/bmw/bmw_x7/carousel/x7-exterior-rear-view-2.webp"
               },
               {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/fronx-exterior-right-front-three-quarter-108.webp"
-              },
-              {
-                "carouselImage": "/maruti_suzuki/maruti_fronx/carousel/youtube-link.jpg"
+                "carouselImage": "/bmw/bmw_x7/carousel/x7-exterior-right-front-three-quarter-7.webp"
               }
             ],
             "engineAndTransmission": {

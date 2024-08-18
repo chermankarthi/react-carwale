@@ -158,12 +158,13 @@ const CompareCarsDataOne = () => {
   };
 
   //---for variant selection
+  const [forModelVariant, setForModelVariant] = useState([]);
   useEffect(() => {
     setSelectedModelOne(selectedModelOne);
     mainArray.filter((v, i) => {
       return v.carArray.map((value, index) => {
         if (Object.keys(value)[0] == selectedModelOne) {
-          setModelVariantOne(Object.values(value)[0]);
+          setForModelVariant(Object.values(value)[0]);
         }
       });
     });
@@ -261,28 +262,20 @@ const CompareCarsDataOne = () => {
   const handleModelSearchTwo = (e) => {
     var data = e.target.value.toLowerCase();
     setDataModel(data);
-    // var selectionSearch = allBrands.filter((v, i) => {
-    //   v.models.map((value, index) => {
-    //         value.model.toLowerCase().includes(data) &&
-    //           handleModelSearch(value.model, data, value.id, v.brandName, i);
-    //       });
-    // });
-
-    var u = allBrands.map((v, i) => {
-      return v.models.filter((value) => {
-        return (
-          value.model.toLowerCase().includes(data) &&
-          setDuplicate(
-            allBrands.map((objParent) => ({
-              ...objParent,
-              models: objParent.models.filter(({ model }) =>
-                model.includes(value.model)
-              ),
-            }))
-          )
-        );
-      });
-    });
+    setDuplicate(
+      allBrands.map((v, i) => {
+        if (v.brandName == expanded) {
+          return {
+            ...v,
+            models: v.models.filter((val, ind) => {
+              return val.model.toLowerCase().includes(data);
+            }),
+          };
+        } else {
+          return v;
+        }
+      })
+    );
 
     if (data.length == "") {
       setExpanded(selectedBrandOne);
@@ -294,7 +287,14 @@ const CompareCarsDataOne = () => {
       );
     }
   };
-
+  console.log(modelVariantOne, "modelVariant");
+  useEffect(() => {
+    var variant = forModelVariant.filter((value, index) => {
+      return index > 0;
+    });
+    console.log(variant, "variant");
+    setModelVariantOne(variant);
+  }, [forModelVariant]);
   return (
     <>
       <Container>

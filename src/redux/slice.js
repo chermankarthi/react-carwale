@@ -59,20 +59,3 @@ export const {
   updatecarVarientType,
 } = Slices.actions;
 export default Slices.reducer;
-
-//  .sort((a, b) => {
-//       if (
-//         a.brandName.toLowerCase().indexOf(data) >
-//         b.brandName.toLowerCase().indexOf(data)
-//       ) {
-//         return 1;
-//       } else if (
-//         a.brandName.toLowerCase().indexOf(data) <
-//         b.brandName.toLowerCase().indexOf(data)
-//       ) {
-//         return -1;
-//       } else {
-//         if (a.brandName > b.brandName) return 1;
-//         else return -1;
-//       }
-//     });

@@ -157,16 +157,25 @@ const CompareCarsDataTwo = () => {
   };
 
   //---for variant selection
+  const [forModelVariant, setForModelVariant] = useState([]);
   useEffect(() => {
     setSelectedModelTwo(selectedModelTwo);
     mainArray.filter((v, i) => {
       return v.carArray.map((value, index) => {
         if (Object.keys(value)[0] == selectedModelTwo) {
-          setModelVariantTwo(Object.values(value)[0]);
+          setForModelVariant(Object.values(value)[0]);
         }
       });
     });
   }, [selectedModelTwo]);
+
+  useEffect(() => {
+    var variant = forModelVariant.filter((value, index) => {
+      return index > 0;
+    });
+    console.log(variant, "variant");
+    setModelVariantTwo(variant);
+  }, [forModelVariant]);
 
   //COMPARE DATA ONE
   const handleDataTwo = (data) => {
@@ -198,7 +207,7 @@ const CompareCarsDataTwo = () => {
         ? handleBrandSearch(v, data)
         : v.models.map((value, index) => {
             value.model.toLowerCase().includes(data) &&
-              handleModelSearch(value.model, data, value.id, v.brandName);
+              handleModelSearch(value.model, data, value.id, v.brandName, i);
           });
     });
   };
@@ -226,14 +235,31 @@ const CompareCarsDataTwo = () => {
       setDuplicate([...allBrands]);
       setExpanded(false);
     }
+
+    console.log("handleBrand");
   };
-  const handleModelSearch = (item, data, id, brand) => {
-    var s = duplicate.map((objParent) => ({
-      ...objParent,
-      models: objParent.models.filter(({ model }) => model.includes(item)),
-    }));
-    setExpanded(brand);
-    setDuplicate(item.toLowerCase().includes(data) ? s : [...allBrands]);
+
+  const handleModelSearch = (item, data, id, brand, index) => {
+    var x = allBrands.map((v, i) => {
+      if (v.brandName == brand) {
+        return {
+          ...v,
+          models: v.models.filter((val, ind) => {
+            return val.model == item;
+          }),
+        };
+      } else {
+        return v;
+      }
+    });
+    var k = x.sort((a) => {
+      return a.brandName > brand;
+    });
+    console.log(k, "k");
+
+    console.log(x, "x");
+    setExpanded(item.toLowerCase().includes(data) ? brand : expanded);
+    setDuplicate(item.toLowerCase().includes(data) ? x : [...allBrands]);
 
     if (data.length == "") {
       setDuplicate([...allBrands]);
@@ -242,25 +268,22 @@ const CompareCarsDataTwo = () => {
   };
 
   const handleModelSearchTwo = (e) => {
-    console.log("searching");
     var data = e.target.value.toLowerCase();
     setDataModel(data);
-
-    var u = allBrands.map((v, i) => {
-      return v.models.filter((value) => {
-        return (
-          value.model.toLowerCase().includes(data) &&
-          setDuplicate(
-            allBrands.map((objParent) => ({
-              ...objParent,
-              models: objParent.models.filter(({ model }) =>
-                model.includes(value.model)
-              ),
-            }))
-          )
-        );
-      });
-    });
+    setDuplicate(
+      allBrands.map((v, i) => {
+        if (v.brandName == expanded) {
+          return {
+            ...v,
+            models: v.models.filter((val, ind) => {
+              return val.model.toLowerCase().includes(data);
+            }),
+          };
+        } else {
+          return v;
+        }
+      })
+    );
 
     if (data.length == "") {
       setExpanded(selectedBrandTwo);

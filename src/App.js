@@ -23,8 +23,8 @@ const App = () => {
             path="/carItemFilter/:price"
             element={<CarItemFilter />}
           ></Route>
-          <Route path="/cars/:carBrand" element={<CarBrands />}></Route>
-          <Route path="/carDetails/:model" element={<CarDetails />}></Route>
+          {/* <Route path="/cars/:carBrand" element={<CarBrands />}></Route>
+          <Route path="/carDetails/:model" element={<CarDetails />}></Route> */}
           <Route path="/comparePage" element={<ComparePage />}></Route>
         </Routes>
       </BrowserRouter>

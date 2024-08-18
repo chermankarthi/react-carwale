@@ -199,7 +199,7 @@ const CompareCarsDataOne = () => {
         ? handleBrandSearch(v, data)
         : v.models.map((value, index) => {
             value.model.toLowerCase().includes(data) &&
-              handleModelSearch(value.model, data, value.id, v.brandName, i);
+              handleModelSearch(value.model, data, value.id, v.brandName);
           });
     });
   };
@@ -230,27 +230,16 @@ const CompareCarsDataOne = () => {
 
     console.log("handleBrand");
   };
-  const handleModelSearch = (item, data, id, brand, index) => {
-    var x = allBrands.map((v, i) => {
-      if (v.brandName == brand) {
-        return {
-          ...v,
-          models: v.models.filter((val, ind) => {
-            return val.model == item;
-          }),
-        };
-      } else {
-        return v;
-      }
-    });
-    var k = x.sort((a) => {
-      return a.brandName > brand;
-    });
-    console.log(k, "k");
-
-    console.log(x, "x");
-    setExpanded(item.toLowerCase().includes(data) ? brand : expanded);
-    setDuplicate(item.toLowerCase().includes(data) ? x : [...allBrands]);
+  const handleModelSearch = (item, data, id, brand) => {
+    var s = duplicate.map((objParent) => ({
+      ...objParent,
+      models: objParent.models.filter(({ model }) =>
+        model.toLowerCase().includes(item)
+      ),
+    }));
+    console.log(s, "s");
+    setExpanded(brand);
+    setDuplicate(item.toLowerCase().includes(data) ? s : [...allBrands]);
 
     if (data.length == "") {
       setDuplicate([...allBrands]);
@@ -259,14 +248,9 @@ const CompareCarsDataOne = () => {
   };
 
   const handleModelSearchTwo = (e) => {
+    console.log("searching");
     var data = e.target.value.toLowerCase();
     setDataModel(data);
-    // var selectionSearch = allBrands.filter((v, i) => {
-    //   v.models.map((value, index) => {
-    //         value.model.toLowerCase().includes(data) &&
-    //           handleModelSearch(value.model, data, value.id, v.brandName, i);
-    //       });
-    // });
 
     var u = allBrands.map((v, i) => {
       return v.models.filter((value) => {

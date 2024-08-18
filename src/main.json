@@ -2,7 +2,18 @@
   {
     "carBrand": "Maruti Suzuki",
     "carBrandImage": "/maruti_suzuki/maruti_suzuki.jpg",
+    "models": [
+      {
+        "id": "11",
+        "model": "Maruti Fronx"
+      },
+      {
+        "id": "12",
+        "model": "Maruti Ertiga"
+      }
+    ],
     "similarBrand": true,
+
     "carArray": [
       {
         "Maruti Fronx": [
@@ -658,6 +669,15 @@
   {
     "carBrand": "Tata",
     "carBrandImage": "/tata/tata.jpg",
+    "models": [
+      {
+        "model": "Tata Nexon"
+      },
+      {
+        "model": "Tata Punch"
+      }
+    ],
+
     "similarBrand": true,
     "carArray": [
       {
@@ -1343,6 +1363,14 @@
     "carBrand": "Hyundai",
     "carBrandImage": "/hyundai/hyundai.jpg",
     "similarBrand": true,
+    "models": [
+      {
+        "model": "Hyundai Exter"
+      },
+      {
+        "model": "Hyundai Creta"
+      }
+    ],
     "carArray": [
       {
         "Hyundai Exter": [
@@ -2016,6 +2044,14 @@
   {
     "carBrand": "Toyota",
     "carBrandImage": "/toyota/toyota.jpg",
+    "models": [
+      {
+        "model": "Toyota Rumion"
+      },
+      {
+        "model": "Toyota Glanza"
+      }
+    ],
     "similarBrand": true,
     "carArray": [
       {
@@ -2689,6 +2725,14 @@
     "carBrand": "Mahindra",
     "carBrandImage": "/mahindra/mahindra.jpg",
     "similarBrand": true,
+    "models": [
+      {
+        "model": "Mahindra Thar"
+      },
+      {
+        "model": "Mahindra Scorpio"
+      }
+    ],
     "carArray": [
       {
         "Mahindra Thar": [
@@ -3316,6 +3360,14 @@
   {
     "carBrand": "BMW",
     "carBrandImage": "/bmw/bmw.jpg",
+    "models": [
+      {
+        "model": "BMW X!"
+      },
+      {
+        "model": "BMW X7"
+      }
+    ],
     "popularBrand": true,
     "carArray": [
       {

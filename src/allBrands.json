@@ -21,10 +21,10 @@
     "similarBrand": true,
     "models": [
       {
-        "model": "Tata "
+        "model": "Tata Nexon"
       },
       {
-        "model": "Tata "
+        "model": "Tata Punch"
       }
     ]
   },
@@ -34,10 +34,10 @@
     "similarBrand": true,
     "models": [
       {
-        "model": "Hyundai "
+        "model": "Hyundai Exter"
       },
       {
-        "model": "Hyundai"
+        "model": "Hyundai Creta"
       }
     ]
   },
@@ -47,10 +47,10 @@
     "similarBrand": true,
     "models": [
       {
-        "model": "Toyota"
+        "model": "Toyota Rumion"
       },
       {
-        "model": "Toyota "
+        "model": "Toyota Glanza"
       }
     ]
   },
@@ -60,10 +60,10 @@
     "similarBrand": true,
     "models": [
       {
-        "model": "Mahindra"
+        "model": "Mahindra Thar"
       },
       {
-        "model": "Mahindra"
+        "model": "Mahindra Scorpio"
       }
     ]
   },
@@ -73,10 +73,10 @@
     "popularBrand": true,
     "models": [
       {
-        "model": "BMW"
+        "model": "BMW X1"
       },
       {
-        "model": "BMW "
+        "model": "BMW X7"
       }
     ]
   }

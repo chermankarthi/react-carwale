@@ -13,10 +13,10 @@ const HomePage = () => {
   return (
     <>
       <Navbar />
-      <Banner />
+      {/* <Banner />
       <FeaturedCars />
       <AllBrands />
-      <CarChoiceFilter />
+      <CarChoiceFilter /> */}
       <CompareCarsData />
       <Footer />
     </>

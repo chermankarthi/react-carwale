@@ -14,25 +14,15 @@ const Input = styled("input")(({ theme }) => ({
 }));
 
 const Listbox = styled("ul")(({ theme }) => ({
-  // margin: 0,
-  // padding: 0,
-  // padding: "auto",
   zIndex: 1,
   position: "absolute",
   listStyle: "none",
-  backgroundColor: theme.palette.mode === "light" ? "#fff" : "#000",
+  backgroundColor: "#fff",
   overflow: "hidden",
   maxHeight: { md: "300px" },
-
-  border: "1px solid rgba(0,0,0,.25)",
+  border: "1px solid #e1e1e1",
   "& li.Mui-focused": {
-    backgroundColor: "#4a8df6",
-    color: "white",
     cursor: "pointer",
-  },
-  "& li:active": {
-    backgroundColor: "#2977f5",
-    color: "white",
   },
 }));
 
@@ -60,6 +50,7 @@ export default function UseAutocomplete() {
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
+            position: "relative",
           }}
         >
           <Input
@@ -67,11 +58,10 @@ export default function UseAutocomplete() {
               width: { xs: "125px", sm: "100px", md: "200px", lg: "250px" },
               paddingBlock: "0px",
               paddingInline: "0px",
-              padding: { xs: "5px 0px", sm: "7px 0px", md: "10px 0px" },
+              padding: { xs: "5px", sm: "7px", md: "10px" },
               border: "1px solid rgba(0, 0, 0, .25)",
               outlineStyle: "none",
               // padding: { xs: "1px 4px", sm: "3px 10px", lg: "5px 30px" },
-              position: "relative",
             }}
             {...getInputProps()}
             placeholder="Search"
@@ -90,7 +80,7 @@ export default function UseAutocomplete() {
               {...getListboxProps()}
               sx={{
                 margin: "0",
-                padding: "0",
+                padding: { xs: "0 5px", sm: "0 7px", md: "0 10px" },
                 width: { xs: "125px", sm: "100px", md: "200px", lg: "250px" },
               }}
             >
@@ -104,6 +94,7 @@ export default function UseAutocomplete() {
                       lg: "15px",
                       xl: "20px",
                     },
+                    paddingX: "0px",
                     borderBottom: "1px solid rgba(0,0,0,.25)",
                   }}
                   {...getOptionProps({ option, index })}

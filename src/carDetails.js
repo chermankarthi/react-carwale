@@ -227,7 +227,7 @@ const CarDetails = () => {
                   item
                   xs={4}
                   sx={{
-                    border: "1px solid black",
+                    border: "1px solid #e1e1e1",
                     borderBottom: "none",
                     borderRight: "none",
                     padding: { xs: "5px", sm: "15px" },
@@ -245,7 +245,7 @@ const CarDetails = () => {
                   item
                   xs={4}
                   sx={{
-                    border: "1px solid black",
+                    border: "1px solid #e1e1e1",
                     borderBottom: "none",
                     borderRight: "none",
                     padding: { xs: "5px", sm: "15px" },
@@ -263,7 +263,7 @@ const CarDetails = () => {
                   item
                   xs={4}
                   sx={{
-                    border: "1px solid black",
+                    border: "1px solid #e1e1e1",
                     borderBottom: "none",
                     padding: { xs: "5px", sm: "15px" },
                     minHeight: "100px",
@@ -281,7 +281,7 @@ const CarDetails = () => {
                   item
                   xs={4}
                   sx={{
-                    border: "1px solid black",
+                    border: "1px solid #e1e1e1",
                     padding: { xs: "5px", sm: "15px" },
                     minHeight: "100px",
 
@@ -299,7 +299,8 @@ const CarDetails = () => {
                   item
                   xs={4}
                   sx={{
-                    border: "1px solid black",
+                    border: "1px solid #e1e1e1",
+
                     borderRight: "none",
                     padding: { xs: "5px", sm: "15px" },
                     minHeight: "100px",
@@ -316,7 +317,7 @@ const CarDetails = () => {
                   item
                   xs={4}
                   sx={{
-                    border: "1px solid black",
+                    border: "1px solid #e1e1e1",
                     padding: { xs: "5px", sm: "15px" },
                     minHeight: "100px",
                   }}

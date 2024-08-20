@@ -28,7 +28,7 @@ function CustomTabPanel(props) {
       aria-labelledby={`simple-tab-${index}`}
       {...other}
     >
-      {value === index && <Box sx={{ p: 3 }}>{children}</Box>}
+      {value === index && <Box sx={{ marginTop: "25px" }}>{children}</Box>}
     </div>
   );
 }
@@ -62,6 +62,7 @@ const FeaturedCars = () => {
   /////////
 
   var settings = {
+    padding: 0,
     infinite: false,
     speed: 500,
     slidesToShow: 3,
@@ -110,6 +111,7 @@ const FeaturedCars = () => {
           ...style,
           display: "block",
           background: "lightgray",
+          right: "-5px",
         }}
         onClick={onClick}
       />
@@ -121,7 +123,13 @@ const FeaturedCars = () => {
     return (
       <div
         className={className}
-        style={{ ...style, display: "block", background: "lightgray" }}
+        style={{
+          ...style,
+          display: "block",
+          background: "lightgray",
+          left: "-5px",
+          zIndex: "1",
+        }}
         onClick={onClick}
       />
     );
@@ -138,11 +146,12 @@ const FeaturedCars = () => {
       </Grid>
       <Grid sx={{ width: "100%" }}>
         <Grid container sx={{ borderBottom: 1, borderColor: "divider" }}>
-          <Grid item x>
+          <Grid item>
             <Tabs
               value={value}
               onChange={handleChange}
               aria-label="basic tabs example"
+              sx={{ padding: "0px" }}
             >
               <Tab
                 label="TRENDING"

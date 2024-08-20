@@ -1,4 +1,4 @@
-import { Box, Container, Divider, Grid, Typography } from "@mui/material";
+import { Container, Divider, Grid, Typography } from "@mui/material";
 import React from "react";
 import { FaFacebook } from "react-icons/fa";
 
@@ -19,6 +19,11 @@ const Footer = () => {
           // color: "hsla(0,0%,100%,.5)",
         }}
       >
+        <Divider
+          sx={{
+            backgroundColor: "hsla(0,0%,100%,.5)",
+          }}
+        />
         <Container>
           <Grid item container maxWidth="lg">
             <Grid
@@ -127,7 +132,6 @@ const Footer = () => {
               </Grid>
               <Grid
                 item
-                xs
                 xs={4}
                 md={2}
                 sx={{
@@ -144,7 +148,6 @@ const Footer = () => {
               </Grid>
               <Grid
                 item
-                xs
                 xs={4}
                 md={2}
                 sx={{
@@ -161,7 +164,6 @@ const Footer = () => {
               </Grid>
               <Grid
                 item
-                xs
                 xs={4}
                 md={2}
                 sx={{
@@ -178,7 +180,6 @@ const Footer = () => {
               </Grid>
               <Grid
                 item
-                xs
                 xs={4}
                 md={2}
                 sx={{
@@ -195,7 +196,6 @@ const Footer = () => {
               </Grid>
               <Grid
                 item
-                xs
                 xs={4}
                 md={2}
                 sx={{

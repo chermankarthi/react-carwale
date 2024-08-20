@@ -9,7 +9,7 @@ import AllBrands from "./allBrands";
 const CarItemFilter = () => {
   const params = useParams();
   console.log(params, "params");
-  const { carData, mainArray } = useSelector((store) => store.car);
+  const { mainArray } = useSelector((store) => store.car);
   const [items, setItems] = useState([]);
   const navigate = useNavigate();
   console.log(items);
@@ -24,9 +24,6 @@ const CarItemFilter = () => {
     setItems(x);
   }, []);
 
-  const a = carData.filter((car) => car.price < params.price);
-  const b = carData.filter((car) => car.price > params.price);
-
   return (
     <>
       <Navbar />
@@ -35,8 +32,9 @@ const CarItemFilter = () => {
         <Typography variant="h6" component={"h6"}>
           Best Cars Under {params.price} Lakh
         </Typography>
+        <Grid container></Grid>
 
-        <Grid item container>
+        <Grid item container sx={{ backgroundColor: "red" }}>
           <Grid
             item
             xs={12}
@@ -45,12 +43,23 @@ const CarItemFilter = () => {
               justifyContent: "space-between",
               alignItems: "center",
               flexWrap: "wrap",
+              backgroundColor: "orange",
             }}
           >
             {items.map((car) => (
-              <Grid item onClick={() => navigate(`/carDetails/${car.model}`)}>
+              <Grid
+                xs={12}
+                md={6}
+                item
+                onClick={() => navigate(`/carDetails/${car.model}`)}
+                sx={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  backgroundColor: "green",
+                }}
+              >
                 {car.priceStart < params.price && params.price <= 40 ? (
-                  <Grid xs={12} sx={{ display: "flex", padding: "25px 50px" }}>
+                  <Grid xs={12} sx={{ display: "flex" }}>
                     <Grid xs={6}>
                       <Typography
                         component={"img"}
@@ -74,19 +83,21 @@ const CarItemFilter = () => {
                     </Grid>
                   </Grid>
                 ) : (
-                  <Grid item xs={6}>
-                    {car.priceStart > 40 && params.price > 40 && (
-                      <Grid xs={12}>
-                        <Grid xs={6}>
-                          <Typography
-                            component={"img"}
-                            src={car.carImage}
-                            width="50%"
-                          ></Typography>
+                  <Grid xs={12}>
+                    <Grid item xs={6}>
+                      {car.priceStart > 40 && params.price > 40 && (
+                        <Grid xs={12}>
+                          <Grid xs={6}>
+                            <Typography
+                              component={"img"}
+                              src={car.carImage}
+                              width="50%"
+                            ></Typography>
+                          </Grid>
+                          <Grid xs={6}></Grid>
                         </Grid>
-                        <Grid xs={6}></Grid>
-                      </Grid>
-                    )}
+                      )}
+                    </Grid>
                   </Grid>
                 )}
               </Grid>

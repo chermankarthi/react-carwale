@@ -1,5 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-import carData from "../carData.json";
 import allBrands from "../allBrands.json";
 import mainCarData from "../main.json";
 import powerTrain from "../powerTrain.json";
@@ -9,7 +8,6 @@ const initialState = {
   mainArray: mainCarData,
   FeaturedCarsData: FeaturedCarsData,
   powerTrainArray: powerTrain,
-  carData: carData,
   allBrands: allBrands,
 
   compareDataOne: {},

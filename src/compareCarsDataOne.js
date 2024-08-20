@@ -170,6 +170,14 @@ const CompareCarsDataOne = () => {
     });
   }, [selectedModelOne]);
 
+  useEffect(() => {
+    var variant = forModelVariant.filter((value, index) => {
+      return index > 0;
+    });
+    console.log(variant, "variant");
+    setModelVariantOne(variant);
+  }, [forModelVariant]);
+
   //COMPARE DATA ONE
   const handleDataOne = (data) => {
     dispatch(updateDataOne(data));
@@ -288,13 +296,7 @@ const CompareCarsDataOne = () => {
     }
   };
   console.log(modelVariantOne, "modelVariant");
-  useEffect(() => {
-    var variant = forModelVariant.filter((value, index) => {
-      return index > 0;
-    });
-    console.log(variant, "variant");
-    setModelVariantOne(variant);
-  }, [forModelVariant]);
+
   return (
     <>
       <Container>

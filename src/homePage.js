@@ -15,9 +15,9 @@ const HomePage = () => {
       <Navbar />
       <Banner />
       <FeaturedCars />
-      <AllBrands />
+      {/* <AllBrands />
       <CarChoiceFilter />
-      <CompareCarsData />
+      <CompareCarsData /> */}
       <Footer />
     </>
   );
